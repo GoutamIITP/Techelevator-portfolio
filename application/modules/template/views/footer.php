@@ -1,101 +1,182 @@
-<footer class="footer pt-5 pb-4">
+<!-- TechElevatr Footer -->
+<footer class="footer">
     <div class="container">
         <div class="row g-4">
-            <div class="col-md-6 col-lg-4">
+
+            <!-- Company Info Column -->
+            <div class="col-lg-4 col-md-6">
                 <div class="d-flex align-items-center mb-3">
-                    <div class="rounded-circle me-2" ><img src="<?= base_url('assets/images/logo/mfi_favicon.png') ?>" class="img-fluid rounded-circle" style="width:38px;height:38px;" alt="logo" loading="lazy">
-                    </div>
-                    <strong>Movers Federation Of India</strong>
+                    <img src="<?= base_url('assets/images/logo/techelevator-logo-white.png') ?>" alt="TechElevatr Logo" height="40" class="me-2" loading="lazy">
+                    <h5 class="mb-0">TechElevatr</h5>
                 </div>
-                <p class="muted">Advancing trust, safety, and growth in India’s relocation industry.</p>
+                <p class="text-light-gray">
+                    Elevate your digital presence with cutting-edge web development, mobile apps, SEO, and IT solutions.
+                    Transform your business with technology that works.
+                </p>
+                <div class="social-icons mt-3">
+                    <a href="https://facebook.com/techelevator" target="_blank" rel="noopener" aria-label="Facebook">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                    <a href="https://twitter.com/techelevator" target="_blank" rel="noopener" aria-label="Twitter">
+                        <i class="bi bi-twitter"></i>
+                    </a>
+                    <a href="https://linkedin.com/company/techelevator" target="_blank" rel="noopener" aria-label="LinkedIn">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                    <a href="https://instagram.com/techelevator" target="_blank" rel="noopener" aria-label="Instagram">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                    <a href="https://youtube.com/@techelevator" target="_blank" rel="noopener" aria-label="YouTube">
+                        <i class="bi bi-youtube"></i>
+                    </a>
+                </div>
             </div>
-            <div class="col-6 col-lg-2">
-                <h6 class="text-uppercase text-secondary">Explore</h6>
-                <ul class="list-unstyled small">
-                    <li><a class="text-decoration-none nav-link p-0" href="#about">About</a></li>
-                    <li><a class="text-decoration-none nav-link p-0" href="#initiatives">Initiatives</a></li>
-                    <li><a class="text-decoration-none nav-link p-0" href="#events">Events</a></li>
-                    <li><a class="text-decoration-none nav-link p-0" href="#contact">Contact</a></li>
+
+            <!-- Quick Links Column -->
+            <div class="col-lg-2 col-md-6">
+                <h5>Quick Links</h5>
+                <ul class="footer-links">
+                    <li><a href="<?= site_url() ?>"><i class="bi bi-chevron-right me-1"></i> Home</a></li>
+                    <li><a href="<?= site_url('about') ?>"><i class="bi bi-chevron-right me-1"></i> About Us</a></li>
+                    <li><a href="<?= site_url('services') ?>"><i class="bi bi-chevron-right me-1"></i> Services</a></li>
+                    <li><a href="<?= site_url('portfolio') ?>"><i class="bi bi-chevron-right me-1"></i> Portfolio</a></li>
+                    <li><a href="<?= site_url('testimonials') ?>"><i class="bi bi-chevron-right me-1"></i> Testimonials</a></li>
+                    <li><a href="<?= site_url('blog') ?>"><i class="bi bi-chevron-right me-1"></i> Blog</a></li>
+                    <li><a href="<?= site_url('contact') ?>"><i class="bi bi-chevron-right me-1"></i> Contact</a></li>
                 </ul>
             </div>
-            <div class="col-6 col-lg-2">
-                <h6 class="text-uppercase text-secondary">Members</h6>
-                <ul class="list-unstyled small">
-                    <li><a class="text-decoration-none nav-link p-0" href="#join">Join MFI</a></li>
-                    <li><a class="text-decoration-none nav-link p-0" href="#faq">FAQ</a></li>
+
+            <!-- Services Column -->
+            <div class="col-lg-3 col-md-6">
+                <h5>Our Services</h5>
+                <ul class="footer-links">
+                    <li><a href="<?= site_url('services/web-development') ?>"><i class="bi bi-chevron-right me-1"></i> Website Development</a></li>
+                    <li><a href="<?= site_url('services/app-development') ?>"><i class="bi bi-chevron-right me-1"></i> App Development</a></li>
+                    <li><a href="<?= site_url('services/seo-services') ?>"><i class="bi bi-chevron-right me-1"></i> SEO Services</a></li>
+                    <li><a href="<?= site_url('services/crm-erp') ?>"><i class="bi bi-chevron-right me-1"></i> CRM / ERP</a></li>
+                    <li><a href="<?= site_url('services/lead-generation') ?>"><i class="bi bi-chevron-right me-1"></i> Lead Generation</a></li>
+                    <li><a href="<?= site_url('services/hosting-domain') ?>"><i class="bi bi-chevron-right me-1"></i> Hosting & Domain</a></li>
                 </ul>
             </div>
-            <div class="col-lg-4">
-                <h6 class="text-uppercase text-secondary">Policies</h6>
-                <ul class="list-unstyled small">
-                    <li><a class="text-decoration-none nav-link p-0" href="<?= site_url("terms-and-conditions") ?>">Terms & Conditions</a></li>
-                    <li><a class="text-decoration-none nav-link p-0" href="<?= site_url("privacy-and-policy") ?>">Privacy Policy</a></li>
-                    <li><a class="text-decoration-none nav-link p-0" href="<?= site_url("cancellation-and-refund-policy") ?>">Cancellation & Refund Policy</a></li>
-                    <li><a class="text-decoration-none nav-link p-0" href="<?= site_url("shipping-and-delivery") ?>">Shipping & Delivery Policy</a></li>
+
+            <!-- Contact Info Column -->
+            <div class="col-lg-3 col-md-6">
+                <h5>Contact Us</h5>
+                <ul class="footer-links list-unstyled">
+                    <li class="mb-3">
+                        <i class="bi bi-geo-alt-fill text-primary-custom me-2"></i>
+                        <a href="<?= $googleMapsUrl ?>" target="_blank" rel="noopener">
+                            <small>TechElevatr<br>Siliguri, West Bengal, India</small>
+                        </a>
+                    </li>
+                    <li class="mb-3">
+                        <i class="bi bi-telephone-fill text-primary-custom me-2"></i>
+                        <a href="<?= $phonehtml ?>"><?= $phone ?></a>
+                    </li>
+                    <li class="mb-3">
+                        <i class="bi bi-envelope-fill text-primary-custom me-2"></i>
+                        <a href="<?= $mailhtml ?>"><?= $mail ?></a>
+                    </li>
+                    <li>
+                        <i class="bi bi-clock-fill text-primary-custom me-2"></i>
+                        <small>Mon - Sat: 9:00 AM - 7:00 PM</small>
+                    </li>
                 </ul>
+            </div>
+
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    <p class="mb-0">© <span id="year"></span> TechElevatr Digital Solutions. All Rights Reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <a href="<?= site_url('terms-and-conditions') ?>" class="me-3">Terms & Conditions</a>
+                    <a href="<?= site_url('privacy-and-policy') ?>" class="me-3">Privacy Policy</a>
+                    <a href="<?= site_url('cancellation-and-refund-policy') ?>" class="me-3">Refund Policy</a>
+                    <a href="<?= site_url('shipping-and-delivery') ?>">Delivery Policy</a>
+                </div>
             </div>
         </div>
-        <hr class="my-4" />
-        <div class="d-flex flex-column flex-lg-row justify-content-between small muted">
-            <div>© <span id="year"></span> Movers Federation Of India. All rights reserved.</div></div>
-        </div>
+
     </div>
 </footer>
 
+<!-- WhatsApp Floating Button -->
+<a href="<?= $whatsapphtml ?>?text=Hi%20TechElevatr,%20I%20need%20help%20with"
+    class="whatsapp-float"
+    target="_blank"
+    rel="noopener"
+    aria-label="Chat on WhatsApp">
+    <i class="bi bi-whatsapp"></i>
+</a>
 
+<!-- Bootstrap 5.3.3 JS Bundle -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-<script src="<?= base_url("assets") ?>/admin/js/hoe.js"></script>
+
+<!-- Custom Scripts -->
 <script>
+    // Set current year in footer
     document.addEventListener('DOMContentLoaded', function() {
-        if (document.getElementById('year')) {
-            document.getElementById('year').textContent = new Date().getFullYear();
+        const yearElement = document.getElementById('year');
+        if (yearElement) {
+            yearElement.textContent = new Date().getFullYear();
         }
 
-        const counters = document.querySelectorAll('.stat');
-        const io = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    const el = entry.target;
-                    const target = parseFloat(el.dataset.target);
-                    const suffix = el.dataset.suffix || '+';
-                    let current = 0;
-                    
-                    // Handle different animation speeds based on target value
-                    const step = target > 100 ? Math.max(1, Math.floor(target / 100)) : 0.1;
-                    const duration = 2000; // 2 seconds
-                    const stepTime = duration / (target / step);
-                    
-                    const animate = () => {
-                        current += step;
-                        if (current >= target) {
-                            current = target;
-                        }
-                        
-                        // Format the display value
-                        let displayValue;
-                        if (suffix === 'M+') {
-                            displayValue = current.toFixed(1) + suffix;
-                        } else {
-                            displayValue = Math.floor(current).toLocaleString('en-IN') + suffix;
-                        }
-                        
-                        el.textContent = displayValue;
-                        
-                        if (current < target) {
-                            setTimeout(animate, stepTime);
-                        }
-                    };
-                    
-                    animate();
-                    io.unobserve(el);
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
                 }
             });
-        }, {
-            threshold: 0.4
         });
-        
-        counters.forEach(c => io.observe(c));
+
+        // Add animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('fade-in');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        // Observe elements with animation class
+        document.querySelectorAll('.tech-card, .card-custom, .portfolio-item').forEach(el => {
+            observer.observe(el);
+        });
     });
+
+    // Form validation helper
+    function validateForm(formId) {
+        const form = document.getElementById(formId);
+        if (form) {
+            form.addEventListener('submit', function(e) {
+                if (!form.checkValidity()) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                }
+                form.classList.add('was-validated');
+            });
+        }
+    }
+
+    // Initialize tooltips
+    const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
+    const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl));
 </script>
 
 </body>

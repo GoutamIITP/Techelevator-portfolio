@@ -18,15 +18,15 @@ $this->load->database();
             <div class="row">
                 <div class="col-lg-6 mx-auto">
                     <div class="site-heading text-center wow fadeInDown" data-wow-delay=".25s">
-                        <span class="site-title-tagline"><i class="fas fa-truck-container"></i> Our Blog</span>
-                        <h2 class="site-title">Our Latest News & <span>Blog</span></h2>
+                        <span class="site-title-tagline"><i class="fas fa-blog"></i> Our Blog</span>
+                        <h2 class="site-title">Our Latest News & <span>Insights</span></h2>
                         <div class="heading-divider"></div>
                     </div>
                 </div>
             </div>
             <div class="row g-4">
                 <?php
-                $query = $this->db->get('blog'); 
+                $query = $this->db->get('blog');
                 $schemaData = []; // Initialize the schema data array
 
                 foreach ($query->result() as $b):
@@ -60,7 +60,7 @@ $this->load->database();
                         ],
                         "publisher" => [
                             "@type" => "Organization",
-                            "name" => "Jay Packers and Movers",
+                            "name" => "TechElevatr Digital Solutions",
                             "logo" => [
                                 "@type" => "ImageObject",
                                 "url" => base_url('assets/img/logo/logo.png')
@@ -69,38 +69,38 @@ $this->load->database();
                         "description" => implode(' ', array_slice(explode(' ', $b->description), 0, 15)) . '...'
                     ];
                 ?>
-                <div class="col-md-6 col-lg-4">
-                    <div class="blog-item wow fadeInUp shadow " data-wow-delay=".25s">
-                        <div class="blog-item-img">
-                            <img src="<?= $img ?>" alt="<?= $b->title ?>">
-                            <div class="blog-date">
-                                <strong><?= $day ?></strong>
-                                <span><?= $month ?></span>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="blog-item wow fadeInUp shadow " data-wow-delay=".25s">
+                            <div class="blog-item-img">
+                                <img src="<?= $img ?>" alt="<?= $b->title ?>">
+                                <div class="blog-date">
+                                    <strong><?= $day ?></strong>
+                                    <span><?= $month ?></span>
+                                </div>
                             </div>
-                        </div>
-                        <div class="blog-item-info">
-                            <div class="blog-item-meta">
-                                <ul>
-                                    <li><a href="<?= $link ?>"><i class="far fa-user-circle"></i> By Admin</a></li>
-                                    <li><a href="<?= $link ?>"><i class="far fa-eye"></i> <?= $b->views ?> Views</a></li>
-                                </ul>
+                            <div class="blog-item-info">
+                                <div class="blog-item-meta">
+                                    <ul>
+                                        <li><a href="<?= $link ?>"><i class="far fa-user-circle"></i> By Admin</a></li>
+                                        <li><a href="<?= $link ?>"><i class="far fa-eye"></i> <?= $b->views ?> Views</a></li>
+                                    </ul>
+                                </div>
+                                <h4 class="blog-title">
+                                    <a href="<?= $link ?>"><?= $b->title ?></a>
+                                </h4>
+                                <p>
+                                    <?= implode(' ', array_slice(explode(' ', $b->description), 0, 15)) ?>...
+                                </p>
+                                <a class="theme-btn" href="<?= $link ?>">Read More<i class="fas fa-arrow-right"></i></a>
                             </div>
-                            <h4 class="blog-title">
-                                <a href="<?= $link ?>"><?= $b->title ?></a>
-                            </h4>
-                            <p>
-                                <?= implode(' ', array_slice(explode(' ', $b->description), 0, 15)) ?>...
-                            </p>
-                            <a class="theme-btn" href="<?= $link ?>">Read More<i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
-                </div>
                 <?php endforeach; ?>
             </div>
         </div>
     </div>
-</main>  
+</main>
 
 <script type="application/ld+json">
-<?= json_encode($schemaData, JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT) ?>
+    <?= json_encode($schemaData, JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT) ?>
 </script>

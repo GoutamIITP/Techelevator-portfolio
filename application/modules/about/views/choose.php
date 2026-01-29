@@ -21,9 +21,9 @@
             <div class="site-heading mb-3">
               <h2 class="site-title">Why Choose <?= $company3 ?>?</h2>
             </div>
-            <p class="about-text"><?= $company3 ?> are well-established companies providing packing and moving services in Patna. From our vast years of experience, we cater for our clients' packing and moving services and guarantee the safety of your valued items.
+            <p class="about-text"><?= $company3 ?> is a well-established IT company providing comprehensive digital solutions. From our vast years of experience, we cater to our clients' technology needs and guarantee the success of your digital transformation projects.
             </p>
-            <p class="about-text">Our experienced packers and movers utilize quality packing materials, proper packaging and handling methods and clean and properly equipped vehicles to afford our clients a deserving and smooth move. Whether you are packing and moving to a new house within the same community, or to the next town, we offer timely, efficient and cost-effective services.
+            <p class="about-text">Our experienced developers and digital marketing experts utilize cutting-edge technologies, modern development frameworks, and proven methodologies to deliver exceptional results for our clients. Whether you are building a new website, developing a mobile app, or implementing digital marketing strategies, we offer timely, efficient, and cost-effective solutions.
             </p>
           </div>
         </div>
@@ -39,8 +39,8 @@
                     <img src="<?= base_url() ?>assets/img/icon/team.svg" alt="">
                   </div>
                   <div class="content">
-                    <h6>Professional Expertise</h6>
-                    <p>Our team includes experienced packers and movers who have been in the field for several years now.</p>
+                    <h6>Expert Development Team</h6>
+                    <p>Our team includes experienced developers, designers, and digital marketing specialists who have been in the IT field for several years.</p>
                   </div>
                 </div>
               </div>
@@ -50,8 +50,8 @@
                     <img src="<?= base_url() ?>assets/img/icon/package.svg" alt="">
                   </div>
                   <div class="content">
-                    <h6>High-Quality Packing Materials</h6>
-                    <p>It works great when you add your normal packing materials with more durable and secure ones so that your item gets more protection.</p>
+                    <h6>Cutting-Edge Technologies</h6>
+                    <p>We use the latest technologies and frameworks to ensure your projects are built with modern, scalable, and secure solutions.</p>
                   </div>
                 </div>
               </div>
@@ -61,8 +61,8 @@
                     <img src="<?= base_url() ?>assets/img/icon/delivery.svg" alt="">
                   </div>
                   <div class="content">
-                    <h6>Timely Delivery</h6>
-                    <p>Timely pickups and drops hence giving a comfortable moving experience.</p>
+                    <h6>On-Time Delivery</h6>
+                    <p>Timely project completion and deployment, ensuring a smooth and efficient development experience.</p>
                   </div>
                 </div>
               </div>
@@ -72,8 +72,8 @@
                     <img src="<?= base_url() ?>assets/img/icon/money.svg" alt="">
                   </div>
                   <div class="content">
-                    <h6>Affordable Pricing</h6>
-                    <p>Solutions that are cheap but do not affect the quality of service.</p>
+                    <h6>Competitive Pricing</h6>
+                    <p>Cost-effective solutions that don't compromise on quality or functionality.</p>
                   </div>
                 </div>
               </div>
@@ -84,7 +84,7 @@
                   </div>
                   <div class="content">
                     <h6>Comprehensive Services</h6>
-                    <p>All manner of moving services, from packing, loading, transporting and even unpacking.</p>
+                    <p>Full-stack development services from planning and design to development, testing, and ongoing maintenance.</p>
                   </div>
                 </div>
               </div>
@@ -94,9 +94,8 @@
                     <img src="<?= base_url() ?>assets/img/icon/certified.svg" alt="">
                   </div>
                   <div class="content">
-                    <h6>Safe Transportation</h6>
-                    <p>Clean cars for safe and secure ride to and from:
-                      Goods.</p>
+                    <h6>Secure & Scalable Solutions</h6>
+                    <p>Robust and secure applications built to scale with your business growth and requirements.</p>
                   </div>
                 </div>
               </div>

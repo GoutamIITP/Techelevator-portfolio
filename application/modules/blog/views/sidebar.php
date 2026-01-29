@@ -2,13 +2,32 @@
 	<?php
 	$city = "India";
 	$keyw = array(
-		"Movers near me $city", "Packers and movers in $city", "Moving companies near me $city", "Movers $city", "Packers and movers near me $city",
-		"Removal companies in $city", "Moving services in $city", "Cheap movers in $city", "Local movers in $city", "Local moving companies in $city",
-		"$city best moving companies", "House movers $city", "Packers movers $city", "Moving services near $city", "House removals $city", "Cheap moving companies in $city",
-		"Professional movers in $city", "House movers near $city", "Cheap movers $city", "Best packers and movers in $city", "Affordable movers $city", "International movers from $city", "International moving companies in $city"
+		"Web development services $city",
+		"Mobile app development $city",
+		"SEO services near me $city",
+		"Digital marketing $city",
+		"CRM solutions $city",
+		"ERP systems in $city",
+		"Lead generation services $city",
+		"Website design $city",
+		"E-commerce development $city",
+		"Custom software development $city",
+		"$city best IT companies",
+		"Web developers $city",
+		"App developers $city",
+		"Digital solutions near $city",
+		"IT consulting $city",
+		"Software development companies in $city",
+		"Professional web design in $city",
+		"Mobile app developers near $city",
+		"Affordable web development $city",
+		"Best digital marketing in $city",
+		"IT services $city",
+		"Cloud hosting services from $city",
+		"Domain registration companies in $city"
 	);
 	?>
-	<h6>Relevant Keywords in <?= $city ?></h6>
+	<h6>Relevant IT Keywords in <?= $city ?></h6>
 	<ul class="inline">
 		<?php
 		shuffle($keyw);

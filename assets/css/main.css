@@ -1,0 +1,347 @@
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+  font-family: 'Poppins', sans-serif !important;
+}
+body,.item-service p,p,ul,li{
+    font-family: 'Poppins', sans-serif !important;
+}
+ul li{
+    font-size:0.775rem;
+        line-height: 24px;
+}
+
+
+/*::-moz-selection {*/
+/*  background: #b3d4fc;*/
+/*  text-shadow: none;*/
+/*}*/
+
+/*::selection {*/
+/*  background: #013088;*/
+/*  text-shadow: none;*/
+/*}*/
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+  resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+  display: none !important;
+}
+
+/*
+* Hide only visually, but have it available for screen readers:
+* https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+*
+* 1. For long content, line feeds are not interpreted as spaces and small width
+*    causes content to wrap 1 word per line:
+*    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+*/
+
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  /* 1 */
+}
+
+
+
+.sr-only.focusable:active,
+.sr-only.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  white-space: inherit;
+  width: auto;
+}
+
+
+.invisible {
+  visibility: hidden;
+}
+
+
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media print,
+  (-webkit-min-device-pixel-ratio: 1.25),
+  (min-resolution: 1.25dppx),
+  (min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */
+}
+
+@media print {
+  *,
+  *:before,
+  *:after {
+    background: transparent !important;
+    color: #000 !important;
+    /* Black prints faster */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+  /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: "";
+  }
+  pre {
+    white-space: pre-wrap !important;
+  }
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  thead {
+    display: table-header-group;
+  }
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
+.process-section
+{
+  content: '';
+  /*position: absolute;*/
+  left: -200px;
+  right: -200px;
+  height: 100%;
+  display: block;
+  top: -5px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.wpb_column
+{
+  width: 80%;
+  margin: 0 auto;
+}
+.it-70
+{
+  position: relative;
+  top: -70px;
+}
+.it-2
+{
+  position: relative;
+  top: -115px;
+}
+.it-3
+{
+  position: relative;
+  top: -15px;
+}
+body
+{
+  -webkit-font-smoothing: antialiased;
+  font-weight: normal;
+}
+
+
+
+
+.wsmenu>.wsmenu-list>li>.wsmegamenu li i {
+  margin-right: 5px;
+  text-align: center;
+  width: 36px;
+  font-size: 25px;
+  background: #ffffff;
+  color:#002e5b;
+  border-radius: 25px;
+  vertical-align: middle;
+  padding: 5px;
+  border: 1px solid #d8d8d8;
+ 
+}
+.wsmenu>.wsmenu-list>li>.wsmegamenu .title {
+  border-bottom: 2px dotted #02bac0 !important;
+  font-size: 15px !important;
+  font-weight: 500;
+ 
+}
+.follow span
+{
+  border-radius: 50%;
+  background: #00b7f1;
+  padding: 9px 11px;
+  height: 10%;
+  color: #fff;
+}
+.follow span i
+{
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+@media only screen and (max-width: 520px) {
+
+ .follow span
+{
+  border-radius: 50%;
+  background: #00b7f1;
+  padding: 8px;
+  height: 6%;
+  color: #fff;
+}
+.follow span i
+{
+  font-size: 16px;
+  vertical-align: middle;
+}
+}
+.headertopright
+{
+  display: flex;
+}
+.address
+{
+  width: 50%;
+}
+.pngback
+{
+  background: #32a0da;
+}
+@media screen and ( max-width:992px) {
+  #rev_slider_19_1_wrapper
+  {
+    margin:119px auto 0 auto !important;
+  }
+}
+
+
+
+.item-service p
+{
+  margin-bottom: 12px;
+}
+ul li {
+    font-size: 0.775rem;
+    line-height: 24px;
+    color: #000000;
+}
+

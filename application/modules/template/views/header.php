@@ -4,32 +4,71 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title><?= $title ?></title>
+  <title><?= $title ?? 'TechElevatr Digital Solutions - Web Development, App Development & IT Services' ?></title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <?php
-  if (!@$description) {
-    $description = "$company3 offers reliable and efficient moving and storage solutions, ensuring your belongings are transported safely and securely to your new destination.";
+  // Default values for TechElevatr
+  $company_name = "TechElevatr Digital Solutions";
+  $company_tagline = "Elevate Your Digital Presence";
+
+  if (!isset($description) || empty($description)) {
+    $description = "TechElevatr Digital Solutions offers professional web development, mobile app development, SEO services, CRM/ERP solutions, and digital marketing. Transform your business with cutting-edge technology.";
   }
-  if (!@$city) $city = "$addressRegion";
-  if (!@$state) $state = "$companystate";
-  if (!@$img) $img = base_url('') . "assets/images/logo/mfi_favicon.png";
+
+  if (!isset($keywords) || empty($keywords)) {
+    $keywords = "web development, app development, SEO services, CRM, ERP, digital marketing, IT solutions, software development, website design, mobile apps";
+  }
+
+  // Contact Information (using dynamic values from controller)
+  $phone = $phone ?? "+91 62958 27525";
+  $phone1 = $phone1 ?? "+91 62958 27525";
+  $phonehtml = $phonehtml ?? "tel:+916295827525";
+  $phonehtml1 = $phonehtml1 ?? "tel:+916295827525";
+  $mail = $mail ?? "techelevatr@gmail.com";
+  $mailhtml = $mailhtml ?? "mailto:techelevatr@gmail.com";
+
+  // Address Information
+  $registeredAddress = $registeredAddress ?? "TechElevatr, Siliguri, West Bengal, India";
+  $officeAddress = $officeAddress ?? "TechElevatr, Siliguri, West Bengal, India";
+  $addressRegion = $addressRegion ?? "West Bengal";
+  $postalCode = $postalCode ?? "734001";
+
+  // SEO & Schema Data
+  $ratingValue = "4.9";
+  $ratingCount = "250";
+  $datePublished = "2024-01-15";
+  $reviewBody = "TechElevatr delivered an exceptional website for our business. Professional team, timely delivery, and excellent support!";
+  $reviewperson = "Rajesh Kumar";
+  $sku = "TECH-WEB-001";
+  $mpn = "TE-2024-001";
+  $themeColor = "#1E40AF";
+
+  // URL Management
+  $img = base_url('assets/images/logo/techelevator-logo.png');
   $url = "https://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
   $url = ($url == site_url('home')) ? site_url() : strtolower($url);
   ?>
-  <meta name="description" content="<?= @$description ?>" />
-  <meta name="keywords" content="<?= @$keywords ?>" />
+
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="<?= $description ?>" />
+  <meta name="keywords" content="<?= $keywords ?>" />
   <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-  <link rel="canonical" href="<?= @$url ?>" />
-  <meta name="author" content="<?= $company3 ?>" />
-  <meta name="copyright" content="<?= $company3 ?>" />
-  <meta name="reply-to" content="<?= $replyToMail ?>" />
+  <link rel="canonical" href="<?= $url ?>" />
+  <meta name="author" content="<?= $company_name ?>" />
+  <meta name="copyright" content="<?= $company_name ?>" />
+  <meta name="reply-to" content="<?= $mail ?>" />
   <meta name="expires" content="never" />
-  <meta name="og_title" property="og:title" content="<?= @$title ?>">
+
+  <!-- Open Graph Meta Tags -->
+  <meta name="og_title" property="og:title" content="<?= $title ?>">
   <meta property="og:type" content="website">
-  <meta name="og_site_name" property="og:site_name" content="<?= $company3 ?>" />
+  <meta name="og_site_name" property="og:site_name" content="<?= $company_name ?>" />
   <meta property="og:image" content="<?= $img ?>" />
-  <meta name="og_url" property="og:url" content="<?= @$url ?>" />
-  <meta property="og:description" content="<?= @$description ?>" />
+  <meta name="og_url" property="og:url" content="<?= $url ?>" />
+  <meta property="og:description" content="<?= $description ?>" />
+
+  <!-- Additional Meta Tags -->
   <meta name="coverage" content="Worldwide" />
   <meta name="allow-search" content="yes" />
   <meta name="robots" content="index, follow" />
@@ -38,35 +77,58 @@
   <meta name="HandheldFriendly" content="True">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="<?= $themeColor ?>">
-  <meta name="allow-search" content="yes" />
   <meta name="revisit-after" content="weekly" />
   <meta name="distribution" content="global" />
   <meta name="language" content="en" />
-  <link rel="apple-touch-icon" href="<?= base_url('assets/images/logo/mfi_favicon.png') ?>">
-  <link rel="shortcut icon" href="<?= base_url('assets/images/logo/mfi_favicon.png') ?>">
-  <link rel="apple-touch-icon" href="<?= base_url('assets/images/logo/mfi_favicon.png') ?>">
 
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" href="<?= base_url('assets/images/logo/favicon.png') ?>">
+  <link rel="shortcut icon" href="<?= base_url('assets/images/logo/favicon.png') ?>">
+  <link rel="icon" type="image/png" href="<?= base_url('assets/images/logo/favicon.png') ?>">
+
+  <!-- Schema.org Markup - Organization -->
   <script type="application/ld+json">
     {
       "@context": "http://schema.org",
       "@type": "Organization",
-      "name": "<?= $company3 ?>",
+      "name": "<?= $company_name ?>",
       "url": "<?= site_url() ?>",
-      "logo": "<?= base_url() ?>assets/images/logo/mfi_logo.png"
+      "logo": "<?= base_url('assets/images/logo/techelevator-logo.png') ?>",
+      "description": "<?= $description ?>",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "<?= $registeredAddress ?>",
+        "addressLocality": "Noida",
+        "postalCode": "<?= $postalCode ?>",
+        "addressRegion": "<?= $addressRegion ?>",
+        "addressCountry": "India"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "<?= $phone ?>",
+        "contactType": "Customer Service",
+        "email": "<?= $mail ?>"
+      },
+      "sameAs": [
+        "https://www.facebook.com/techelevator",
+        "https://www.linkedin.com/company/techelevator",
+        "https://twitter.com/techelevator"
+      ]
     }
   </script>
+
+  <!-- Schema.org Markup - Local Business -->
   <script type="application/ld+json">
     {
       "@context": "http://schema.org",
       "@type": "LocalBusiness",
-      "name": "<?= $company3 ?>",
+      "name": "<?= $company_name ?>",
       "url": "<?= site_url() ?>",
-      "image": ["<?= base_url() ?>assets/images/logo/mfi_logo.png"],
+      "image": ["<?= base_url('assets/images/logo/techelevator-logo.png') ?>"],
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "  
-        <?= $address1 ?> ",
-        "addressLocality": "<?= $address2 ?>",
+        "streetAddress": "<?= $registeredAddress ?>",
+        "addressLocality": "Noida",
         "postalCode": "<?= $postalCode ?>",
         "addressRegion": "<?= $addressRegion ?>",
         "addressCountry": "India"
@@ -85,216 +147,94 @@
         "author": {
           "@type": "Person",
           "name": "<?= $reviewperson ?>"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
         }
       }],
-      "paymentAccepted": ["Cash", "Master Card", "Visa Card", "Debit Cards", "Cheques", "Credit Card"],
-      "priceRange": "500 - 40000",
+      "priceRange": "₹₹₹",
       "telephone": "<?= $phone ?>",
       "email": "<?= $mail ?>"
     }
   </script>
+
+  <!-- Schema.org Markup - Service -->
   <script type="application/ld+json">
     {
       "@context": "http://schema.org",
-      "@type": "Product",
-      "sku": "<?= $sku ?>",
-      "mpn": "<?= $mpn ?>",
-      "name": "Movers Federation Of India",
-      "image": "<?= $img ?>",
-      "description": "<?= @$description ?>",
-      "url": "<?= $url ?>",
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "<?= $ratingValue ?>",
-        "ratingCount": "<?= $ratingCount ?>"
+      "@type": "Service",
+      "serviceType": "Web Development & IT Solutions",
+      "provider": {
+        "@type": "Organization",
+        "name": "<?= $company_name ?>",
+        "url": "<?= site_url() ?>"
       },
-      "review": {
-        "@type": "Review",
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": "<?= $ratingValue ?>",
-          "bestRating": "5"
-        },
-        "author": {
-          "@type": "Person",
-          "name": "<?= $company3 ?>"
-        }
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
       },
-      "offers": {
-        "@type": "Offer",
-        "price": "4999.00",
-        "priceCurrency": "INR",
-        "priceValidUntil": "<?= date("Y-m-") ?>30",
-        "availability": "https://schema.org/InStock",
-        "url": "<?= $url ?>"
-      },
-      "brand": {
-        "@type": "Brand",
-        "name": "<?= $company3 ?>",
-        "image": "<?= $img ?>"
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "IT Services",
+        "itemListElement": [{
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Website Development"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Mobile App Development"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "SEO Services"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "CRM/ERP Solutions"
+            }
+          }
+        ]
       }
     }
   </script>
 
-  <!-- CSS -->
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap 5.3.3 CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
 
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
 
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
+  <!-- TechElevatr Custom Theme -->
+  <link href="<?= base_url('assets/css/techelevator-theme.css') ?>" rel="stylesheet">
 
-  <!-- <link href="<?= base_url("assets") ?>/admin/css/main.css" rel="stylesheet"> -->
-  <script src="<?= base_url() ?>assets/admin/js/jquery.min.js"></script>
-  <style>
-    :root {
-      --mfi-primary: #6f42c1;
-      /* inspired accent */
-      --mfi-dark: #0b0b12;
-      --mfi-light: #f8f9fc;
-      --mfi-grad: linear-gradient(135deg, #6f42c1 0%, #0d6efd 50%, #20c997 100%);
-    }
+  <!-- jQuery -->
+  <script src="<?= base_url('assets/admin/js/jquery.min.js') ?>"></script>
 
-    body {
-      background: var(--mfi-dark);
-      color: #e9ecef;
-    }
-
-    .text-gradient {
-      background: var(--mfi-grad);
-      -webkit-background-clip: text;
-      background-clip: text;
-      color: transparent;
-    }
-
-    /* Hero */
-    .hero {
-      position: relative;
-      overflow: hidden;
-      background: radial-gradient(1200px 600px at 80% -10%, rgba(13, 110, 253, .25), transparent 60%),
-        radial-gradient(1000px 500px at -10% 10%, rgba(111, 66, 193, .25), transparent 60%),
-        linear-gradient(180deg, rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0));
-    }
-
-    .hero .orb {
-      position: absolute;
-      border-radius: 50%;
-      filter: blur(60px);
-      opacity: .5;
-    }
-
-    .orb.orb-1 {
-      width: 380px;
-      height: 380px;
-      background: #0d6efd;
-      top: -60px;
-      right: -120px;
-    }
-
-    .orb.orb-2 {
-      width: 280px;
-      height: 280px;
-      background: #20c997;
-      bottom: -80px;
-      left: -60px;
-    }
-
-    .nav-link {
-      color: #cbd5e1 !important;
-    }
-
-    .nav-link:hover {
-      color: #fff !important;
-    }
-
-    .glass {
-      background: rgba(255, 255, 255, .06);
-      border: 1px solid rgba(255, 255, 255, .12);
-      backdrop-filter: blur(8px);
-      border-radius: 1rem;
-    }
-
-    .section-pad {
-      padding: 3rem 0;
-    }
-
-    .brand-badge {
-      border: 1px dashed rgba(255, 255, 255, .2);
-      border-radius: 1rem;
-      padding: 1.25rem;
-    }
-
-    .logo-tile {
-      height: 56px;
-      border-radius: .75rem;
-      background: rgba(255, 255, 255, .06);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .logo-tile img {
-      max-height: 32px;
-      opacity: .9;
-      filter: grayscale(1) contrast(.9);
-    }
-
-    .card {
-      background: #111321;
-      border: 1px solid rgba(255, 255, 255, .08);
-    }
-
-    .card h3,
-    .card h4 {
-      color: #fff;
-    }
-
-    .stat {
-      font-size: clamp(2rem, 6vw, 3.5rem);
-      font-weight: 800;
-      letter-spacing: -.02em;
-    }
-
-    .muted {
-      color: #aab0b7;
-    }
-
-    .footer {
-      background: #0a0c16;
-    }
-
-    .btn-gradient {
-      background: var(--mfi-grad);
-      color: #fff;
-      border: 0;
-    }
-
-    .btn-gradient:hover {
-      filter: brightness(1.05);
-      color: #fff;
-    }
-
-    .link-arrow {
-      transition: transform .2s ease;
-      display: inline-flex;
-      align-items: center;
-      gap: .5rem;
-    }
-
-    .link-arrow:hover {
-      transform: translateX(4px);
-    }
-
-    /* Accessibility focus */
-    :focus-visible {
-      outline: 3px dashed #20c997;
-      outline-offset: 4px;
-    }
-
-    /* Smooth anchors */
-    html {
-      scroll-behavior: smooth;
-    }
-  </style>
 </head>
 
 <body>

@@ -1,497 +1,426 @@
-<header class="hero py-5 py-lg-6">
-    <div class="orb orb-1" aria-hidden="true"></div>
-    <div class="orb orb-2" aria-hidden="true"></div>
-    <div class="container position-relative">
+<!-- TechElevatr Homepage -->
+
+<!-- Hero Section -->
+<section class="hero-section">
+    <div class="container">
         <div class="row align-items-center g-5">
-            <div class="col-lg-7">
-                <span class="badge text-bg-light text-dark rounded-pill px-3 py-2 mb-3">Across India • Since 2017</span>
-                <h1 class="display-4 fw-bolder lh-1 mb-3">
-                    India’s trusted network of
-                    <span class="text-gradient" style="font-size:0.8em; font-weight:700; color:#ff5722;">
-                        relocation companies
-                    </span>.
+
+            <!-- Left Content -->
+            <div class="col-lg-6 slide-in-left">
+                <span class="badge badge-custom badge-primary mb-3">
+                    <i class="bi bi-award me-2"></i> Trusted by 500+ Businesses
+                </span>
+                <h1 class="display-4 fw-bold mb-4">
+                    Grow Your Business <span class="highlight">Digitally</span>
                 </h1>
-                <h6>Building Trust, Driving Excellence!</h6>
-                <p class="lead text-white">MFI unites responsible pre-owned relocation companies, sets benchmark industry standards, safeguards consumer interests, and accelerates growth across the relocation community.</p>
-                <div class="d-flex flex-wrap gap-2 mt-3">
-                    <a href="<?php echo site_url('details') ?>" class="btn btn-gradient btn-lg"><i class="bi bi-rocket-takeoff me-2"></i>Become a Member</a>
-                    <a href="#about" class="btn btn-outline-light btn-lg"><i class="bi bi-info-circle me-2"></i>Learn More</a>
+                <p class="lead mb-4">
+                    Transform your business with cutting-edge web development, mobile apps, SEO, and CRM solutions.
+                    We build technology that drives growth and delivers results.
+                </p>
+                <div class="d-flex flex-wrap gap-3 mb-4">
+                    <a href="<?= site_url('free-quote') ?>" class="btn btn-primary btn-lg">
+                        <i class="bi bi-rocket-takeoff me-2"></i> Get Free Quote
+                    </a>
+                    <a href="<?= site_url('portfolio') ?>" class="btn btn-outline-primary btn-lg">
+                        <i class="bi bi-briefcase me-2"></i> View Portfolio
+                    </a>
                 </div>
-                <div class="d-flex align-items-center gap-3 mt-4 small text-white">
-                    <i class="bi bi-shield-check"></i> Verified members<i class="bi bi-people ms-2"></i> Nationwide community <i class="bi bi-globe ms-2"></i> Pan‑India coverage
+                <div class="d-flex align-items-center gap-4 flex-wrap">
+                    <div class="d-flex align-items-center">
+                        <i class="bi bi-check-circle-fill text-success me-2"></i>
+                        <span>100% Client Satisfaction</span>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <i class="bi bi-shield-check text-primary-custom me-2"></i>
+                        <span>Secure & Scalable</span>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <i class="bi bi-headset text-primary-custom me-2"></i>
+                        <span>24/7 Support</span>
+                    </div>
                 </div>
             </div>
-            <div class="col-lg-5">
-                <div class="glass p-3 p-md-4">
-                    <div class="ratio ratio-16x9 rounded-4 overflow-hidden">
-                        <img src="<?= base_url() ?>assets/images/logo/bd1.svg" alt="MFI LOGO" loading="lazy" class="img-fluid w-100" style="object-fit: cover;">
-                    </div>
-                    <div class="mt-3">
-                        <a href="<?php echo site_url('details') ?>" class="btn btn-gradient w-100"><i class="bi bi-person-plus"></i> Join Now</a>
-                    </div>
-                </div>
+
+            <!-- Right Image -->
+            <div class="col-lg-6 text-center slide-in-right">
+                <img src="<?= base_url('assets/images/hero/digital-solutions.svg') ?>"
+                    alt="Digital Solutions"
+                    class="img-fluid hero-image"
+                    loading="lazy">
             </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Services Section -->
+<section class="services-section">
+    <div class="container">
+
+        <!-- Section Title -->
+        <div class="text-center mb-5">
+            <h2 class="section-title section-title-center">Our Services</h2>
+            <p class="section-subtitle">Comprehensive IT solutions tailored to your business needs</p>
         </div>
 
+        <!-- Services Grid -->
+        <div class="row g-4">
+
+            <!-- Website Development -->
+            <div class="col-lg-4 col-md-6">
+                <div class="tech-card text-center">
+                    <div class="service-icon-box">
+                        <i class="bi bi-globe"></i>
+                    </div>
+                    <h5>Website Development</h5>
+                    <p>Modern, responsive, and SEO-optimized websites that convert visitors into customers.</p>
+                    <a href="<?= site_url('services/web-development') ?>" class="btn btn-sm btn-outline-primary mt-2">
+                        Learn More <i class="bi bi-arrow-right ms-1"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- App Development -->
+            <div class="col-lg-4 col-md-6">
+                <div class="tech-card text-center">
+                    <div class="service-icon-box">
+                        <i class="bi bi-phone"></i>
+                    </div>
+                    <h5>App Development</h5>
+                    <p>Native and cross-platform mobile apps for iOS and Android with seamless UX.</p>
+                    <a href="<?= site_url('services/app-development') ?>" class="btn btn-sm btn-outline-primary mt-2">
+                        Learn More <i class="bi bi-arrow-right ms-1"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- SEO Services -->
+            <div class="col-lg-4 col-md-6">
+                <div class="tech-card text-center">
+                    <div class="service-icon-box">
+                        <i class="bi bi-search"></i>
+                    </div>
+                    <h5>SEO Services</h5>
+                    <p>Boost your online visibility and rank higher on Google with proven SEO strategies.</p>
+                    <a href="<?= site_url('services/seo-services') ?>" class="btn btn-sm btn-outline-primary mt-2">
+                        Learn More <i class="bi bi-arrow-right ms-1"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- CRM / ERP -->
+            <div class="col-lg-4 col-md-6">
+                <div class="tech-card text-center">
+                    <div class="service-icon-box">
+                        <i class="bi bi-diagram-3"></i>
+                    </div>
+                    <h5>CRM / ERP Solutions</h5>
+                    <p>Streamline operations with custom CRM and ERP systems built for your workflow.</p>
+                    <a href="<?= site_url('services/crm-erp') ?>" class="btn btn-sm btn-outline-primary mt-2">
+                        Learn More <i class="bi bi-arrow-right ms-1"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Lead Generation -->
+            <div class="col-lg-4 col-md-6">
+                <div class="tech-card text-center">
+                    <div class="service-icon-box">
+                        <i class="bi bi-megaphone"></i>
+                    </div>
+                    <h5>Lead Generation</h5>
+                    <p>Drive quality leads and grow your sales pipeline with targeted digital marketing.</p>
+                    <a href="<?= site_url('services/lead-generation') ?>" class="btn btn-sm btn-outline-primary mt-2">
+                        Learn More <i class="bi bi-arrow-right ms-1"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Hosting & Domain -->
+            <div class="col-lg-4 col-md-6">
+                <div class="tech-card text-center">
+                    <div class="service-icon-box">
+                        <i class="bi bi-server"></i>
+                    </div>
+                    <h5>Hosting & Domain</h5>
+                    <p>Reliable hosting solutions with 99.9% uptime and free SSL certificates.</p>
+                    <a href="<?= site_url('services/hosting-domain') ?>" class="btn btn-sm btn-outline-primary mt-2">
+                        Learn More <i class="bi bi-arrow-right ms-1"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
     </div>
-</header>
-<!-- ABOUT -->
-<section id="about" class="section-pad">
+</section>
+
+<!-- Why Choose Us Section -->
+<section class="py-5 bg-light-custom">
     <div class="container">
         <div class="row align-items-center g-5">
+
+            <!-- Left Image -->
             <div class="col-lg-6">
-                <div class="brand-badge">
-                    <h2 class="fw-bold">About <span class="text-gradient">MFI</span></h2>
-                    <p class="lead muted">Movers Federation Of India is a non‑profit industry body advancing ethical, safe, and professional relocation services nationwide.</p>
-                    <ul class="list-unstyled mt-3">
-                        <li class="mb-2"><i class="bi bi-check2-circle text-success me-2"></i>Code of conduct & fair‑practice guidelines</li>
-                        <li class="mb-2"><i class="bi bi-check2-circle text-success me-2"></i>Member verification & grievance assistance</li>
-                        <li class="mb-2"><i class="bi bi-check2-circle text-success me-2"></i>Training, events & knowledge sharing</li>
-                    </ul>
-                    <a href="#join" class="link-arrow text-decoration-none">Learn how membership works <i class="bi bi-arrow-right"></i></a>
-                </div>
+                <img src="<?= base_url('assets/images/why-choose-us.svg') ?>"
+                    alt="Why Choose TechElevatr"
+                    class="img-fluid rounded-custom shadow-custom"
+                    loading="lazy">
             </div>
+
+            <!-- Right Content -->
             <div class="col-lg-6">
+                <h2 class="section-title mb-4">Why Choose TechElevatr?</h2>
+                <p class="mb-4">We combine technical expertise with business understanding to deliver solutions that actually work for your goals.</p>
+
                 <div class="row g-3">
-                    <div class="col-6">
-                        <div class="card p-4 h-100">
-                            <i class="bi text-white bi-shield-lock display-6 mb-3"></i>
-                            <h4>Consumer Safety</h4>
-                            <p class="muted">Tools to help customers find legitimate movers and avoid fraud.</p>
+                    <div class="col-md-6">
+                        <div class="d-flex align-items-start">
+                            <i class="bi bi-check-circle-fill text-success fs-4 me-3"></i>
+                            <div>
+                                <h6 class="mb-1">Expert Team</h6>
+                                <small class="text-muted">Certified developers with 10+ years experience</small>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-6">
-                        <div class="card p-4 h-100">
-                            <i class="bi text-white bi-people display-6 mb-3"></i>
-                            <h4>Member Growth</h4>
-                            <p class="muted">Visibility, networking, and resources that help members scale.</p>
+                    <div class="col-md-6">
+                        <div class="d-flex align-items-start">
+                            <i class="bi bi-check-circle-fill text-success fs-4 me-3"></i>
+                            <div>
+                                <h6 class="mb-1">On-Time Delivery</h6>
+                                <small class="text-muted">98% projects delivered before deadline</small>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-6">
-                        <div class="card p-4 h-100">
-                            <i class="bi text-white bi-mortarboard display-6 mb-3"></i>
-                            <h4>Training</h4>
-                            <p class="muted">Workshops & certifications for operations, claims & service.</p>
+                    <div class="col-md-6">
+                        <div class="d-flex align-items-start">
+                            <i class="bi bi-check-circle-fill text-success fs-4 me-3"></i>
+                            <div>
+                                <h6 class="mb-1">Affordable Pricing</h6>
+                                <small class="text-muted">Transparent pricing with no hidden costs</small>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-6">
-                        <div class="card p-4 h-100">
-                            <i class="bi text-white bi-globe2 display-6 mb-3"></i>
-                            <h4>Pan‑India Network</h4>
-                            <p class="muted">A collaborative community across metro & tier‑2/3 cities.</p>
+                    <div class="col-md-6">
+                        <div class="d-flex align-items-start">
+                            <i class="bi bi-check-circle-fill text-success fs-4 me-3"></i>
+                            <div>
+                                <h6 class="mb-1">24/7 Support</h6>
+                                <small class="text-muted">Round-the-clock technical assistance</small>
+                            </div>
                         </div>
                     </div>
                 </div>
+
+                <a href="<?= site_url('about') ?>" class="btn btn-primary mt-4">
+                    Learn More About Us <i class="bi bi-arrow-right ms-2"></i>
+                </a>
             </div>
+
         </div>
     </div>
 </section>
-<section class="section-pad" aria-label="Key statistics">
+
+<!-- Stats Section -->
+<section class="py-5 bg-primary-custom text-white">
     <div class="container">
-        <div class="row text-center row-cols-3 row-cols-lg-5 g-4">
-            <div class="col">
-                <div class="stat" data-target="350">350</div>
-                <div class="muted">Verified Members</div>
+        <div class="row text-center g-4">
+            <div class="col-lg-3 col-md-6">
+                <h2 class="display-4 fw-bold mb-2">500+</h2>
+                <p class="mb-0">Happy Clients</p>
             </div>
-            <div class="col">
-                <div class="stat" data-target="950">0</div>
-                <div class="muted">Moves Per Day</div>
+            <div class="col-lg-3 col-md-6">
+                <h2 class="display-4 fw-bold mb-2">1200+</h2>
+                <p class="mb-0">Projects Completed</p>
             </div>
-            <div class="col">
-                <div class="stat" data-target="5.5" data-suffix="M+">0</div>
-                <div class="muted">Satisfied Customers</div>
+            <div class="col-lg-3 col-md-6">
+                <h2 class="display-4 fw-bold mb-2">50+</h2>
+                <p class="mb-0">Expert Team Members</p>
             </div>
-            <div class="col">
-                <div class="stat" data-target="650">0</div>
-                <div class="muted">Cities Across India</div>
-            </div>
-            <div class="col">
-                <div class="stat" data-target="120">0</div>
-                <div class="muted">Vehicles & Fleets</div>
+            <div class="col-lg-3 col-md-6">
+                <h2 class="display-4 fw-bold mb-2">10+</h2>
+                <p class="mb-0">Years Experience</p>
             </div>
         </div>
     </div>
 </section>
-<section id="initiatives" class="section-pad">
-    <div class="container">
-        <div class="text-center mb-4">
-            <h2 class="fw-bold">What we <span class="text-gradient">do</span></h2>
-            <p class="muted">Programs and services that uplift the moving ecosystem.</p>
-        </div>
-        <div class="row g-4 row-cols-1 row-cols-md-2 row-cols-lg-3">
-            <div class="col">
-                <div class="card h-100 p-4">
-                    <div class="d-flex align-items-center mb-3"><i class="bi bi-patch-check fs-3 me-2 text-white"></i>
-                        <h4 class="mb-0">Member Verification</h4>
-                    </div>
-                    <p class="muted">Background checks and validation to ensure compliance and trust.</p>
-                    <a href="#verify" class="link-arrow text-decoration-none">Verify a mover <i class="bi bi-arrow-right"></i></a>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100 p-4">
-                    <div class="d-flex align-items-center mb-3"><i class="bi bi-megaphone fs-3 me-2 text-white"></i>
-                        <h4 class="mb-0">Consumer Awareness</h4>
-                    </div>
-                    <p class="muted">Guides, checklists, and rights for safer relocations.</p>
-                    <a href="#resources" class="link-arrow text-decoration-none">Explore resources <i class="bi bi-arrow-right"></i></a>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100 p-4">
-                    <div class="d-flex align-items-center mb-3"><i class="bi bi-graph-up-arrow fs-3 me-2 text-white"></i>
-                        <h4 class="mb-0">Business Enablement</h4>
-                    </div>
-                    <p class="muted">Leads, partnerships, and best‑practices that help you grow.</p>
-                    <a href="#join" class="link-arrow text-decoration-none">Membership benefits <i class="bi bi-arrow-right"></i></a>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100 p-4">
-                    <div class="d-flex align-items-center mb-3"><i class="bi bi-journal-text fs-3 me-2 text-white"></i>
-                        <h4 class="mb-0">Policy & Advocacy</h4>
-                    </div>
-                    <p class="muted">Representing industry interests with stakeholders and authorities.</p>
-                    <a href="#advocacy" class="link-arrow text-decoration-none">See our positions <i class="bi bi-arrow-right"></i></a>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100 p-4">
-                    <div class="d-flex align-items-center mb-3"><i class="bi bi-calendar2-event fs-3 me-2 text-white"></i>
-                        <h4 class="mb-0">Events & Training</h4>
-                    </div>
-                    <p class="muted">Conferences, city‑meets, and workshops across India.</p>
-                    <a href="#events" class="link-arrow text-decoration-none">Upcoming events <i class="bi bi-arrow-right"></i></a>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100 p-4">
-                    <div class="d-flex align-items-center mb-3"><i class="bi bi-headset fs-3 me-2 text-white"></i>
-                        <h4 class="mb-0">Member Support</h4>
-                    </div>
-                    <p class="muted">Dedicated support for disputes, claims, and best‑practice adoption.</p>
-                    <a href="#contact" class="link-arrow text-decoration-none">Contact support <i class="bi bi-arrow-right"></i></a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section id="members" class="section-pad">
-    <div class="container">
-        <div class="row align-items-center mb-2">
-            <div class="col-lg-8">
-                <h2 class="fw-bold">Community & Leadership</h2>
-                <p class="muted">Driven by the vision of our Founder & Trustees, strengthened by the National Council, and upheld by a strong community of verified member companies.</p>
-            </div>
-            <div class="col-lg-4 text-lg-end">
-                <a href="<?php echo site_url('details') ?>" class="btn btn-gradient"><i class="bi bi-person-gear me-2"></i>Become a Member</a>
-            </div>
-        </div>
-        <div class="row g-4 row-cols-1 row-cols-sm-2 row-cols-lg-4">
-            <!-- Leadership cards (placeholders) -->
-            <div class="col">
-                <div class="card h-100 p-4 text-center">
-                    <img class="rounded-circle mx-auto mb-3" src="<?= base_url('assets/images/leaders/chairperson.jpeg') ?>" alt="Leader" width="120" height="120">
-                    <h5 class="mb-0 text-white">Ajit Sharma</h5>
-                    <small class="muted">Trustee & Chairperson</small>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100 p-4 text-center">
-                    <img class="rounded-circle mx-auto mb-3" src="<?= base_url('assets/images/leaders/president.jpeg') ?>" alt="Leader" width="120" height="120">
-                    <h5 class="mb-0 text-white">Alok Bhargav</h5>
-                    <small class="muted">Trustee & President</small>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100 p-4 text-center">
-                    <img class="rounded-circle mx-auto mb-3" src="<?= base_url('assets/images/leaders/spokesperson.jpeg') ?>" alt="Leader" width="120" height="120">
-                    <h5 class="mb-0 text-white">Anoop Mishra</h5>
-                    <small class="muted">Trustee & Secretary & Media Spokesperson</small>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100 p-4 text-center">
-                    <img class="rounded-circle mx-auto mb-3" src="<?= base_url('assets/images/leaders/treasurer.jpeg') ?>" alt="Leader" width="120" height="120">
-                    <h5 class="mb-0 text-white">Ramesh Jangra</h5>
-                    <small class="muted">Trustee</small>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section id="members_nec" class="section-pad">
-    <div class="container">
-        <div class="row align-items-center mb-2">
-            <div class="col-lg-8">
-                <h2 class="fw-bold">NEC Members</h2>
-            </div>
-        </div>
-        <div class="row g-4 row-cols-1 row-cols-sm-2 row-cols-lg-4">
-            <div class="col">
-                <div class="card h-100 p-4 text-center">
-                    <img class="rounded-circle mx-auto mb-3" src="<?= base_url('assets/images/leaders/nec5.jpeg') ?>" alt="Leader" width="120" height="120">
-                    <h5 class="mb-0 text-white">Saikat Bhattacharyya</h5>
-                    <small class="muted">NEC Head</small>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100 p-4 text-center">
-                    <img class="rounded-circle mx-auto mb-3" src="<?= base_url('assets/images/leaders/nec2.jpeg') ?>" alt="Leader" width="120" height="120">
-                    <h5 class="mb-0 text-white">Firoz Khan</h5>
-                    <small class="muted">NEC Member</small>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100 p-4 text-center">
-                    <img class="rounded-circle mx-auto mb-3" src="<?= base_url('assets/images/leaders/nec4.jpeg') ?>" alt="Leader" width="120" height="120">
-                    <h5 class="mb-0 text-white">Chetan Sharma</h5>
-                    <small class="muted">NEC Member</small>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100 p-4 text-center">
-                    <img class="rounded-circle mx-auto mb-3" src="<?= base_url('assets/images/leaders/nec1.jpeg') ?>" alt="Leader" width="120" height="120">
-                    <h5 class="mb-0 text-white">Anil Sharma</h5>
-                    <small class="muted">NEC Member</small>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section id="events" class="section-pad">
+
+<!-- Portfolio Preview Section -->
+<section class="py-5">
     <div class="container">
         <div class="text-center mb-5">
-            <h2 class="fw-bold">Featured <span class="text-gradient">events</span></h2>
-            <p class="muted">City meets, conventions, and capacity‑building workshops.</p>
+            <h2 class="section-title section-title-center">Our Recent Work</h2>
+            <p class="section-subtitle">Check out some of our latest projects</p>
         </div>
 
         <div class="row g-4">
+            <!-- Portfolio Item 1 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="portfolio-item">
+                    <img src="<?= base_url('assets/images/portfolio/project-1.jpg') ?>"
+                        alt="E-commerce Website"
+                        class="img-fluid"
+                        loading="lazy">
+                    <div class="portfolio-overlay">
+                        <div class="text-white text-center">
+                            <h5>E-commerce Platform</h5>
+                            <p class="mb-3">Website Development</p>
+                            <a href="<?= site_url('portfolio') ?>" class="btn btn-light btn-sm">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Portfolio Item 2 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="portfolio-item">
+                    <img src="<?= base_url('assets/images/portfolio/project-2.jpg') ?>"
+                        alt="Mobile App"
+                        class="img-fluid"
+                        loading="lazy">
+                    <div class="portfolio-overlay">
+                        <div class="text-white text-center">
+                            <h5>Food Delivery App</h5>
+                            <p class="mb-3">Mobile App Development</p>
+                            <a href="<?= site_url('portfolio') ?>" class="btn btn-light btn-sm">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Portfolio Item 3 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="portfolio-item">
+                    <img src="<?= base_url('assets/images/portfolio/project-3.jpg') ?>"
+                        alt="CRM System"
+                        class="img-fluid"
+                        loading="lazy">
+                    <div class="portfolio-overlay">
+                        <div class="text-white text-center">
+                            <h5>Custom CRM System</h5>
+                            <p class="mb-3">CRM Development</p>
+                            <a href="<?= site_url('portfolio') ?>" class="btn btn-light btn-sm">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mt-5">
+            <a href="<?= site_url('portfolio') ?>" class="btn btn-primary btn-lg">
+                View All Projects <i class="bi bi-arrow-right ms-2"></i>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Testimonials Section -->
+<section class="py-5 bg-light-custom">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="section-title section-title-center">What Our Clients Say</h2>
+            <p class="section-subtitle">Real feedback from real businesses</p>
+        </div>
+
+        <div class="row g-4">
+            <!-- Testimonial 1 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="testimonial-card">
+                    <div class="mb-3">
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "TechElevatr transformed our online presence completely. The website they built is fast, beautiful, and generates leads daily!"
+                    </p>
+                    <div class="testimonial-author">
+                        <img src="<?= base_url('assets/images/testimonials/client-1.jpg') ?>"
+                            alt="Rajesh Kumar"
+                            class="testimonial-avatar"
+                            loading="lazy">
+                        <div class="testimonial-info">
+                            <h6>Rajesh Kumar</h6>
+                            <small>CEO, TechStart Solutions</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimonial 2 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="testimonial-card">
+                    <div class="mb-3">
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "Professional team, excellent communication, and delivered ahead of schedule. Highly recommend for app development!"
+                    </p>
+                    <div class="testimonial-author">
+                        <img src="<?= base_url('assets/images/testimonials/client-2.jpg') ?>"
+                            alt="Priya Sharma"
+                            class="testimonial-avatar"
+                            loading="lazy">
+                        <div class="testimonial-info">
+                            <h6>Priya Sharma</h6>
+                            <small>Founder, FitLife App</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimonial 3 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="testimonial-card">
+                    <div class="mb-3">
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "Their SEO services doubled our organic traffic in 6 months. Best investment we made for our business growth!"
+                    </p>
+                    <div class="testimonial-author">
+                        <img src="<?= base_url('assets/images/testimonials/client-3.jpg') ?>"
+                            alt="Amit Patel"
+                            class="testimonial-avatar"
+                            loading="lazy">
+                        <div class="testimonial-info">
+                            <h6>Amit Patel</h6>
+                            <small>Director, GreenLeaf Organics</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mt-5">
+            <a href="<?= site_url('testimonials') ?>" class="btn btn-outline-primary">
+                Read More Reviews <i class="bi bi-arrow-right ms-2"></i>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="py-5 bg-primary-custom text-white">
+    <div class="container">
+        <div class="row align-items-center">
             <div class="col-lg-8">
-                <div class="card p-4 shadow-lg border border-light text-white">
-                    <div class="d-flex justify-content-between align-items-center flex-wrap gap-2 mb-3">
-                        <h4 class="mb-0">Annual Movers Convention</h4>
-                        <span class="badge text-bg-success">Registration Open</span>
-                    </div>
-
-                    <div class="collapse" id="fullSchedule">
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item bg-transparent text-white d-flex align-items-center justify-content-between">
-                                <div>
-                                    <strong>Day 1:</strong> Introduction & Keynote Session
-                                </div>
-                                <small class="text-white">09:30 – 12:30</small>
-                            </li>
-                            <li class="list-group-item bg-transparent text-white d-flex align-items-center justify-content-between">
-                                <div>
-                                    <strong>Day 2:</strong> Strategy Meetings & Panel Discussions
-                                </div>
-                                <small class="text-white">10:00 – 16:00</small>
-                            </li>
-                            <li class="list-group-item bg-transparent text-white d-flex align-items-center justify-content-between">
-                                <div>
-                                    <strong>Day 3:</strong> Workshops & Networking
-                                </div>
-                                <small class="text-white">10:00 – 15:00</small>
-                            </li>
-                            <li class="list-group-item bg-transparent text-white d-flex align-items-center justify-content-between">
-                                <div>
-                                    <strong>Day 4:</strong> Networking Dinner & Awards Night
-                                </div>
-                                <small class="text-white">18:00 – 22:00</small>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="mt-3 d-flex gap-2">
-                        <a class="btn btn-outline-light" data-bs-toggle="collapse" href="#fullSchedule" role="button" aria-expanded="false" aria-controls="fullSchedule">
-                            View Full Schedule
-                        </a>
-                    </div>
-                </div>
+                <h2 class="mb-3">Ready to Elevate Your Digital Presence?</h2>
+                <p class="mb-0 fs-5">Get a free consultation and project quote today. Let's build something amazing together!</p>
             </div>
-            <div class="col-lg-4">
-                <div class="card p-4 h-100">
-                    <h4 class="mb-3">Upcoming City Meets</h4>
-                    <div class="d-flex flex-column gap-3">
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div>
-                                <strong class="text-white">Mumbai Chapter</strong>
-                                <div class="muted">September 01</div>
-                            </div>
-                            <a href="#" class="btn btn-sm btn-outline-light">RSVP</a>
-                        </div>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div>
-                                <strong class="text-white">Bengaluru Chapter</strong>
-                                <div class="muted">September 02</div>
-                            </div>
-                            <a href="#" class="btn btn-sm btn-outline-light">RSVP</a>
-                        </div>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div>
-                                <strong class="text-white">New Delhi Chapter</strong>
-                                <div class="muted">September 03</div>
-                            </div>
-                            <a href="#" class="btn btn-sm btn-outline-light">RSVP</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="section-pad" aria-label="Testimonials">
-    <div class="container">
-        <div id="testimonials" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="card p-4 text-center mx-auto" style="max-width:900px;">
-                        <p class="lead text-white">“MFI’s verification helped us win customer trust and expand into two new cities.”</p>
-                        <div class="small muted">— Member Company, Pune</div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="card p-4 text-center mx-auto" style="max-width:900px;">
-                        <p class="lead text-white">“Great learning at the workshops. Practical insights for operations & claims.”</p>
-                        <div class="small muted">— Member Company, Ahmedabad</div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="card p-4 text-center mx-auto" style="max-width:900px;">
-                        <p class="lead text-white">“The community support is excellent. We solved disputes faster.”</p>
-                        <div class="small muted">— Member Company, Kolkata</div>
-                    </div>
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#testimonials" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#testimonials" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-    </div>
-</section>
-<section class="section-pad" id="faq">
-    <div class="container">
-        <div class="text-center mb-4">
-            <h2 class="fw-bold">Frequently asked questions</h2>
-        </div>
-        <div class="accordion" id="faqAcc">
-            <div class="accordion-item bg-transparent text-white border rounded-3 overflow-hidden">
-                <h2 class="accordion-header" id="q1">
-                    <button class="accordion-button collapsed bg-transparent text-white" type="button" data-bs-toggle="collapse" data-bs-target="#a1" aria-expanded="false" aria-controls="a1">
-                        How do I verify a mover?
-                    </button>
-                </h2>
-                <div id="a1" class="accordion-collapse collapse" aria-labelledby="q1" data-bs-parent="#faqAcc">
-                    <div class="accordion-body">
-                        Use the <strong>Verify Mover</strong> tool to search by company name, city, or membership ID.
-                    </div>
-                </div>
-            </div>
-            <div class="accordion-item bg-transparent text-white border rounded-3 overflow-hidden mt-3">
-                <h2 class="accordion-header" id="q2">
-                    <button class="accordion-button collapsed bg-transparent text-white" type="button" data-bs-toggle="collapse" data-bs-target="#a2" aria-expanded="false" aria-controls="a2">
-                        What are the membership benefits?
-                    </button>
-                </h2>
-                <div id="a2" class="accordion-collapse collapse" aria-labelledby="q2" data-bs-parent="#faqAcc">
-                    <div class="accordion-body">
-                        Visibility, trust badge, events access, training, dispute support, and B2B networking.
-                    </div>
-                </div>
-            </div>
-            <div class="accordion-item bg-transparent text-white border rounded-3 overflow-hidden mt-3">
-                <h2 class="accordion-header" id="q3">
-                    <button class="accordion-button collapsed bg-transparent text-white" type="button" data-bs-toggle="collapse" data-bs-target="#a3" aria-expanded="false" aria-controls="a3">
-                        Is MFI a government body?
-                    </button>
-                </h2>
-                <div id="a3" class="accordion-collapse collapse" aria-labelledby="q3" data-bs-parent="#faqAcc">
-                    <div class="accordion-body">
-                        No. MFI is an independent industry association working with stakeholders to promote best practices.
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section id="join" class="section-pad">
-    <div class="container">
-        <div class="glass p-4 p-lg-5">
-            <div class="row align-items-center g-4">
-                <div class="col-lg-8">
-                    <h3 class="mb-2">Ready to join India’s most trusted movers community?</h3>
-                    <p class="muted mb-0">Become a verified member and access training, events, and business growth opportunities.</p>
-                </div>
-                <div class="col-lg-4 text-lg-end">
-                    <a href="<?php echo site_url('details') ?>" class="btn btn-gradient btn-lg w-100">Apply for Membership</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section id="contact" class="section-pad">
-    <div class="container">
-        <div class="row g-4">
-            <div class="col-lg-6">
-                <h2 class="fw-bold">Contact us</h2>
-                <p class="muted">Have questions about membership, verification, or events? We’d love to hear from you.</p>
-                <div class="d-flex flex-column gap-2">
-                    <div><i class="bi bi-envelope me-2"></i> <a style="text-decoration: none;color:white;" href="mailto:<?= $mailhtml ?>"><?= $mail ?></a> </div>
-                    <div><i class="bi bi-telephone me-2"></i> <a style="text-decoration: none;color:white;" href="<?= $phonehtml ?>"><?= $phone ?></a> / <a style="text-decoration: none;color:white;" href="<?= $phonehtml1 ?>"><?= $phone1 ?></a></div>
-                    <div><i class="bi bi-geo-alt me-2"></i>Register Office Address: <?= $registeredAddress ?></div>
-                    <div><i class="bi bi-geo-alt me-2"></i>Corporate Office Address: <?= $officeAddress ?></div>
-                </div>
-                <!-- <div class="mt-4">
-                    <h6 class="text-uppercase text-secondary">Follow</h6>
-                    <div class="d-flex gap-2">
-                        <a class="btn btn-outline-light btn-sm" aria-label="Facebook" href="#">
-                            <i class="bi bi-facebook"></i>
-                        </a>
-                        <a class="btn btn-outline-light btn-sm" aria-label="LinkedIn" href="#">
-                            <i class="bi bi-linkedin"></i>
-                        </a>
-                        <a class="btn btn-outline-light btn-sm" aria-label="Twitter" href="#">
-                            <i class="bi bi-twitter"></i>
-                        </a>
-                        <a class="btn btn-outline-light btn-sm" aria-label="YouTube" href="#">
-                            <i class="bi bi-youtube"></i>
-                        </a>
-                    </div>
-                </div> -->
-            </div>
-            <div class="col-lg-6">
-                <div class="card p-4">
-                    <h4 class="mb-3">Send a message</h4>
-                    <form novalidate>
-                        <div class="row g-3">
-                            <div class="col-md-6">
-                                <label for="name" class="form-label text-white">Name</label>
-                                <input type="text" id="name" class="form-control" placeholder="Your full name" required>
-                            </div>
-                            <div class="col-md-6">
-                                <label for="email" class="form-label text-white">Email</label>
-                                <input type="email" id="email" class="form-control" placeholder="name@example.com" required>
-                            </div>
-                            <div class="col-12">
-                                <label for="subject" class="form-label text-white">Subject</label>
-                                <input type="text" id="subject" class="form-control" placeholder="How can we help?" required>
-                            </div>
-                            <div class="col-12">
-                                <label for="message" class="form-label text-white">Message</label>
-                                <textarea id="message" class="form-control" rows="4" placeholder="Write your message..." required></textarea>
-                            </div>
-                            <div class="col-12">
-                                <button type="submit" class="btn btn-gradient">Send</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
+            <div class="col-lg-4 text-lg-end mt-4 mt-lg-0">
+                <a href="<?= site_url('free-quote') ?>" class="btn btn-light btn-lg">
+                    <i class="bi bi-rocket-takeoff me-2"></i> Get Free Quote
+                </a>
             </div>
         </div>
     </div>
