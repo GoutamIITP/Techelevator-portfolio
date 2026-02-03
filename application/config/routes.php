@@ -26,6 +26,7 @@ $route['services/hosting-domain'] = 'services/hostingDomain';
 
 // Portfolio Routes (Replaces packers_movers)
 $route['portfolio'] = 'portfolio/index';
+$route['portfolio/category/(:any)'] = 'portfolio/category/$1';
 $route['portfolio/(:any)'] = 'portfolio/view/$1';
 
 // Testimonials Routes (Replaces reviews)
@@ -46,6 +47,11 @@ $route['blog/(:any)'] = 'blog/view/$1';
 
 // Contact Routes
 $route['contact'] = 'contacts/index';
+
+// Careers Routes
+$route['careers'] = 'careers/index';
+$route['careers/apply'] = 'careers/apply';
+$route['careers/job/(:num)'] = 'careers/job_details/$1';
 
 // Gallery Routes (Keep for backward compatibility)
 $route['photo-gallery'] = 'gallery/photo_gallery';

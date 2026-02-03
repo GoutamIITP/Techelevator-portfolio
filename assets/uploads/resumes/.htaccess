@@ -1,0 +1,17 @@
+# Protect resume uploads
+<Files "*.php">
+    Order Allow,Deny
+    Deny from all
+</Files>
+
+# Allow only specific file types
+<FilesMatch "\.(pdf|doc|docx)$">
+    Order Allow,Deny
+    Allow from all
+</FilesMatch>
+
+# Deny access to all other files
+<FilesMatch "^(?!.*\.(pdf|doc|docx)$).*$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
