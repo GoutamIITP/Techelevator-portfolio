@@ -261,17 +261,7 @@ a:hover {
   color: var(--primary-blue) !important;
 }
 
-.nav-link::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  width: 0;
-  height: 2px;
-  background: var(--accent-orange);
-  transition: var(--transition-fast);
-  transform: translateX(-50%);
-}
+ 
 
 .nav-link:hover::after {
   width: 80%;
@@ -1022,5 +1012,13 @@ a:hover {
     display: none;
   }
 }
+
+.brand-text {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #111827;
+    letter-spacing: 0.5px;
+}
+
 
 /* ======== all service ======== */

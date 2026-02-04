@@ -82,9 +82,9 @@
   <meta name="language" content="en" />
 
   <!-- Favicons -->
-  <link rel="apple-touch-icon" href="<?= base_url('assets/images/logo/favicon.png') ?>">
-  <link rel="shortcut icon" href="<?= base_url('assets/images/logo/favicon.png') ?>">
-  <link rel="icon" type="image/png" href="<?= base_url('assets/images/logo/favicon.png') ?>">
+  <link rel="apple-touch-icon" href="<?= base_url('assets/images/logo/instagram-files/logo-2.jpg') ?>">
+  <link rel="shortcut icon" href="<?= base_url('assets/images/logo/instagram-files/logo-2.jpg') ?>">
+  <link rel="icon" type="image/png" href="<?= base_url('assets/images/logo/instagram-files/logo-2.jpg') ?>">
 
   <!-- Schema.org Markup - Organization -->
   <script type="application/ld+json">

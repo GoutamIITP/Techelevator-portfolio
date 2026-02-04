@@ -48,6 +48,7 @@
         <img src="<?= base_url('assets/images/logo/techelevator-logo.jpg') ?>"
           alt="TechElevatr Logo"
           class="nav-logo">
+          <span class="brand-text">Tech<span class="text-primary">Elevatr</span></span>
       </a>
 
       <!-- Desktop Navigation (Visible on LG and up) -->
@@ -87,9 +88,9 @@
                       <ul class="service-list">
                         <li><a href="<?= site_url('services/web-development') ?>">Website Development</a></li>
 
-                        <li><a href="<?= site_url('services/ecommerce-development') ?>">E-commerce Development</a></li>
+                        <!-- <li><a href="<?= site_url('services/ecommerce-development') ?>">E-commerce Development</a></li>
                         <li><a href="<?= site_url('services/cms-development') ?>">CMS Development</a></li>
-                        <li><a href="<?= site_url('services/wordpress-development') ?>">WordPress Development</a></li>
+                        <li><a href="<?= site_url('services/wordpress-development') ?>">WordPress Development</a></li> -->
                       </ul>
                     </div>
                   </div>
@@ -103,10 +104,10 @@
                       </h6>
                       <ul class="service-list">
                         <li><a href="<?= site_url('services/app-development') ?>">Mobile App Development</a></li>
-                        <li><a href="<?= site_url('services/android-development') ?>">Android Development</a></li>
+                        <!-- <li><a href="<?= site_url('services/android-development') ?>">Android Development</a></li>
                         <li><a href="<?= site_url('services/ios-development') ?>">iOS Development</a></li>
                         <li><a href="<?= site_url('services/flutter-development') ?>">Flutter Development</a></li>
-                        <li><a href="<?= site_url('services/react-native') ?>">React Native</a></li>
+                        <li><a href="<?= site_url('services/react-native') ?>">React Native</a></li> -->
                       </ul>
                     </div>
                   </div>
@@ -121,9 +122,9 @@
                       <ul class="service-list">
                         <li><a href="<?= site_url('services/seo-services') ?>">SEO Services</a></li>
                         <li><a href="<?= site_url('services/lead-generation') ?>">Lead Generation</a></li>
-                        <li><a href="<?= site_url('services/social-media-marketing') ?>">Social Media Marketing</a></li>
+                        <!-- <li><a href="<?= site_url('services/social-media-marketing') ?>">Social Media Marketing</a></li>
                         <li><a href="<?= site_url('services/google-ads') ?>">Google Ads & PPC</a></li>
-                        <li><a href="<?= site_url('services/content-marketing') ?>">Content Marketing</a></li>
+                        <li><a href="<?= site_url('services/content-marketing') ?>">Content Marketing</a></li> -->
                       </ul>
                     </div>
                   </div>
@@ -138,9 +139,9 @@
                       <ul class="service-list">
                         <li><a href="<?= site_url('services/crm-erp') ?>">CRM/ERP Solutions</a></li>
                         <li><a href="<?= site_url('services/hosting-domain') ?>">Hosting & Domain</a></li>
-                        <li><a href="<?= site_url('services/custom-software') ?>">Custom Software</a></li>
+                        <!-- <li><a href="<?= site_url('services/custom-software') ?>">Custom Software</a></li>
                         <li><a href="<?= site_url('services/it-consulting') ?>">IT Consulting</a></li>
-                        <li><a href="<?= site_url('services/maintenance-support') ?>">Maintenance & Support</a></li>
+                        <li><a href="<?= site_url('services/maintenance-support') ?>">Maintenance & Support</a></li> -->
                       </ul>
                     </div>
                   </div>
@@ -255,10 +256,10 @@
                   <div class="collapse" id="webDevSection">
                     <ul class="section-list">
                       <li><a href="<?= site_url('services/web-development') ?>">Website Development</a></li>
-                      <li><a href="<?= site_url('services/responsive-design') ?>">Responsive Design</a></li>
+                      <!-- <li><a href="<?= site_url('services/responsive-design') ?>">Responsive Design</a></li>
                       <li><a href="<?= site_url('services/ecommerce-development') ?>">E-commerce Development</a></li>
                       <li><a href="<?= site_url('services/cms-development') ?>">CMS Development</a></li>
-                      <li><a href="<?= site_url('services/wordpress-development') ?>">WordPress Development</a></li>
+                      <li><a href="<?= site_url('services/wordpress-development') ?>">WordPress Development</a></li> -->
                     </ul>
                   </div>
                 </div>
@@ -273,10 +274,10 @@
                   <div class="collapse" id="appDevSection">
                     <ul class="section-list">
                       <li><a href="<?= site_url('services/app-development') ?>">Mobile App Development</a></li>
-                      <li><a href="<?= site_url('services/android-development') ?>">Android Development</a></li>
+                      <!-- <li><a href="<?= site_url('services/android-development') ?>">Android Development</a></li>
                       <li><a href="<?= site_url('services/ios-development') ?>">iOS Development</a></li>
                       <li><a href="<?= site_url('services/flutter-development') ?>">Flutter Development</a></li>
-                      <li><a href="<?= site_url('services/react-native') ?>">React Native</a></li>
+                      <li><a href="<?= site_url('services/react-native') ?>">React Native</a></li> -->
                     </ul>
                   </div>
                 </div>
@@ -292,9 +293,9 @@
                     <ul class="section-list">
                       <li><a href="<?= site_url('services/seo-services') ?>">SEO Services</a></li>
                       <li><a href="<?= site_url('services/lead-generation') ?>">Lead Generation</a></li>
-                      <li><a href="<?= site_url('services/social-media-marketing') ?>">Social Media Marketing</a></li>
+                      <!-- <li><a href="<?= site_url('services/social-media-marketing') ?>">Social Media Marketing</a></li>
                       <li><a href="<?= site_url('services/google-ads') ?>">Google Ads & PPC</a></li>
-                      <li><a href="<?= site_url('services/content-marketing') ?>">Content Marketing</a></li>
+                      <li><a href="<?= site_url('services/content-marketing') ?>">Content Marketing</a></li> -->
                     </ul>
                   </div>
                 </div>
@@ -310,9 +311,9 @@
                     <ul class="section-list">
                       <li><a href="<?= site_url('services/crm-erp') ?>">CRM/ERP Solutions</a></li>
                       <li><a href="<?= site_url('services/hosting-domain') ?>">Hosting & Domain</a></li>
-                      <li><a href="<?= site_url('services/custom-software') ?>">Custom Software</a></li>
+                      <!-- <li><a href="<?= site_url('services/custom-software') ?>">Custom Software</a></li>
                       <li><a href="<?= site_url('services/it-consulting') ?>">IT Consulting</a></li>
-                      <li><a href="<?= site_url('services/maintenance-support') ?>">Maintenance & Support</a></li>
+                      <li><a href="<?= site_url('services/maintenance-support') ?>">Maintenance & Support</a></li> -->
                     </ul>
                   </div>
                 </div>

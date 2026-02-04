@@ -194,80 +194,7 @@
         </div>
     </div>
 </section>
-<!-- Why Choose Us -->
-<section class="why-choose-section">
-    <div class="container">
 
-        <div class="row align-items-center gy-5">
-
-            <!-- Image -->
-            <div class="col-lg-6 text-center">
-                <img
-                    src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                    alt="Why Choose Us"
-                    class="img-fluid rounded-4 shadow-lg why-image">
-            </div>
-
-            <!-- Content -->
-            <div class="col-lg-6">
-                <h2 class="section-title mb-3">
-                    Why <span class="text-primary">Partner With Us</span>
-                </h2>
-
-                <p class="section-subtitle mb-4">
-                    We combine deep technical expertise with business strategy
-                    to deliver scalable, result-driven digital solutions.
-                </p>
-
-                <!-- Feature Grid -->
-                <div class="row g-4">
-
-                    <div class="col-sm-6">
-                        <div class="why-card">
-                            <div class="why-icon bg-primary">
-                                <i class="bi bi-award"></i>
-                            </div>
-                            <h5>Expert Team</h5>
-                            <p>Certified professionals with 10+ years of industry experience.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-6">
-                        <div class="why-card">
-                            <div class="why-icon bg-success">
-                                <i class="bi bi-clock-history"></i>
-                            </div>
-                            <h5>On-Time Delivery</h5>
-                            <p>98% of projects delivered on or before deadline.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-6">
-                        <div class="why-card">
-                            <div class="why-icon bg-warning">
-                                <i class="bi bi-shield-check"></i>
-                            </div>
-                            <h5>Quality Assurance</h5>
-                            <p>Rigorous testing ensures flawless performance.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-6">
-                        <div class="why-card">
-                            <div class="why-icon bg-info">
-                                <i class="bi bi-headset"></i>
-                            </div>
-                            <h5>24/7 Support</h5>
-                            <p>Round-the-clock technical assistance and maintenance.</p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
 <!-- Stats Section -->
 <section class="stats-section">
     <div class="container">
@@ -389,6 +316,83 @@
         </div>
     </div>
 </section>
+<!-- Industries Section -->
+<section class="section-padding bg-light" id="industries">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="section-title">Industries We Serve</h2>
+            <p class="section-subtitle">
+                Custom digital solutions across multiple industries
+            </p>
+        </div>
+
+        <!-- Desktop & Tablet Grid -->
+        <div class="row g-4 d-none d-md-flex">
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="industry-card">
+                    <i class="bi bi-bag-check"></i>
+                    <h6>Retail & eCommerce</h6>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="industry-card">
+                    <i class="bi bi-heart-pulse"></i>
+                    <h6>Healthcare</h6>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="industry-card">
+                    <i class="bi bi-mortarboard"></i>
+                    <h6>Education</h6>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="industry-card">
+                    <i class="bi bi-bank"></i>
+                    <h6>Finance & Banking</h6>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Carousel -->
+        <div class="industries-carousel-wrapper d-md-none">
+            <div class="industries-carousel">
+                <button class="carousel-btn prev">
+                    <i class="bi bi-chevron-left"></i>
+                </button>
+
+                <div class="carousel-track">
+                    <div class="industry-slide">
+                        <i class="bi bi-bag-check"></i>
+                        <span>Retail & eCommerce</span>
+                    </div>
+
+                    <div class="industry-slide">
+                        <i class="bi bi-heart-pulse"></i>
+                        <span>Healthcare</span>
+                    </div>
+
+                    <div class="industry-slide">
+                        <i class="bi bi-mortarboard"></i>
+                        <span>Education</span>
+                    </div>
+
+                    <div class="industry-slide">
+                        <i class="bi bi-bank"></i>
+                        <span>Finance & Banking</span>
+                    </div>
+                </div>
+
+                <button class="carousel-btn next">
+                    <i class="bi bi-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
 <!-- Testimonials Section -->
 <section class="section-padding bg-light" id="testimonials">
     <div class="container">
@@ -485,83 +489,7 @@
         </div>
     </div>
 </section>
-<!-- Industries Section -->
-<section class="section-padding bg-light" id="industries">
-    <div class="container">
-        <div class="text-center mb-5">
-            <h2 class="section-title">Industries We Serve</h2>
-            <p class="section-subtitle">
-                Custom digital solutions across multiple industries
-            </p>
-        </div>
 
-        <!-- Desktop & Tablet Grid -->
-        <div class="row g-4 d-none d-md-flex">
-            <div class="col-lg-3 col-md-4 col-sm-6">
-                <div class="industry-card">
-                    <i class="bi bi-bag-check"></i>
-                    <h6>Retail & eCommerce</h6>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-md-4 col-sm-6">
-                <div class="industry-card">
-                    <i class="bi bi-heart-pulse"></i>
-                    <h6>Healthcare</h6>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-md-4 col-sm-6">
-                <div class="industry-card">
-                    <i class="bi bi-mortarboard"></i>
-                    <h6>Education</h6>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-md-4 col-sm-6">
-                <div class="industry-card">
-                    <i class="bi bi-bank"></i>
-                    <h6>Finance & Banking</h6>
-                </div>
-            </div>
-        </div>
-
-        <!-- Mobile Carousel -->
-        <div class="industries-carousel-wrapper d-md-none">
-            <div class="industries-carousel">
-                <button class="carousel-btn prev">
-                    <i class="bi bi-chevron-left"></i>
-                </button>
-
-                <div class="carousel-track">
-                    <div class="industry-slide">
-                        <i class="bi bi-bag-check"></i>
-                        <span>Retail & eCommerce</span>
-                    </div>
-
-                    <div class="industry-slide">
-                        <i class="bi bi-heart-pulse"></i>
-                        <span>Healthcare</span>
-                    </div>
-
-                    <div class="industry-slide">
-                        <i class="bi bi-mortarboard"></i>
-                        <span>Education</span>
-                    </div>
-
-                    <div class="industry-slide">
-                        <i class="bi bi-bank"></i>
-                        <span>Finance & Banking</span>
-                    </div>
-                </div>
-
-                <button class="carousel-btn next">
-                    <i class="bi bi-chevron-right"></i>
-                </button>
-            </div>
-        </div>
-    </div>
-</section>
 <!---- Process Section ---------->
 <section class="process-section" id="process">
     <div class="container">
@@ -625,6 +553,80 @@
                 <div class="step-content">
                     <h5><i class="bi bi-rocket-takeoff me-2"></i>Launch & Support</h5>
                     <p>Deployment, monitoring, and continuous improvement.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- Why Choose Us -->
+<section class="why-choose-section">
+    <div class="container">
+
+        <div class="row align-items-center gy-5">
+
+            <!-- Image -->
+            <div class="col-lg-6 text-center">
+                <img
+                    src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                    alt="Why Choose Us"
+                    class="img-fluid rounded-4 shadow-lg why-image">
+            </div>
+
+            <!-- Content -->
+            <div class="col-lg-6">
+                <h2 class="section-title mb-3">
+                    Why <span class="text-primary">Partner With Us</span>
+                </h2>
+
+                <p class="section-subtitle mb-4">
+                    We combine deep technical expertise with business strategy
+                    to deliver scalable, result-driven digital solutions.
+                </p>
+
+                <!-- Feature Grid -->
+                <div class="row g-4">
+
+                    <div class="col-sm-6">
+                        <div class="why-card">
+                            <div class="why-icon bg-primary">
+                                <i class="bi bi-award"></i>
+                            </div>
+                            <h5>Expert Team</h5>
+                            <p>Certified professionals with 10+ years of industry experience.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="why-card">
+                            <div class="why-icon bg-success">
+                                <i class="bi bi-clock-history"></i>
+                            </div>
+                            <h5>On-Time Delivery</h5>
+                            <p>98% of projects delivered on or before deadline.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="why-card">
+                            <div class="why-icon bg-warning">
+                                <i class="bi bi-shield-check"></i>
+                            </div>
+                            <h5>Quality Assurance</h5>
+                            <p>Rigorous testing ensures flawless performance.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="why-card">
+                            <div class="why-icon bg-info">
+                                <i class="bi bi-headset"></i>
+                            </div>
+                            <h5>24/7 Support</h5>
+                            <p>Round-the-clock technical assistance and maintenance.</p>
+                        </div>
+                    </div>
+
                 </div>
             </div>
 
