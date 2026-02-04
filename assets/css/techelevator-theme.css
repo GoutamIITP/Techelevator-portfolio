@@ -14,6 +14,7 @@
   --secondary-blue: #3b82f6;
   --sky-blue: #38bdf8;
   --dark-text: #111827;
+  --accent-green: #10b981;
   --dark-color: #1f2937;
   --accent-blue: #3b82f6;
   --light-text: #595e67;
@@ -1022,3 +1023,4 @@ a:hover {
   }
 }
 
+/* ======== all service ======== */
