@@ -92,75 +92,7 @@
     </div>
 </section>
 
-<!-- Pricing Packages -->
-<section class="py-5 bg-light-custom">
-    <div class="container">
-        <div class="text-center mb-5">
-            <h2 class="section-title section-title-center">Lead Generation Packages</h2>
-            <p class="section-subtitle">Choose the plan that fits your lead generation goals</p>
-        </div>
-
-        <div class="row g-4">
-            <!-- Starter Package -->
-            <div class="col-lg-4">
-                <div class="card-custom p-4 h-100">
-                    <h4 class="mb-3">Starter Package</h4>
-                    <div class="mb-4">
-                        <span class="display-4 fw-bold text-primary-custom">₹20,000</span>
-                        <span class="text-muted">/month</span>
-                    </div>
-                    <ul class="list-unstyled mb-4">
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Google Ads Management</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> 2 Landing Pages</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Lead Tracking Setup</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Monthly Reports</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Email Support</li>
-                    </ul>
-                    <a href="<?= site_url('free-quote') ?>" class="btn btn-outline-primary w-100">Get Started</a>
-                </div>
-            </div>
-
-            <!-- Professional Package (Popular) -->
-            <div class="col-lg-4">
-                <div class="card-custom p-4 h-100 border-primary" style="border-width: 3px !important;">
-                    <div class="badge bg-primary mb-3">Most Popular</div>
-                    <h4 class="mb-3">Professional Package</h4>
-                    <div class="mb-4">
-                        <span class="display-4 fw-bold text-primary-custom">₹40,000</span>
-                        <span class="text-muted">/month</span>
-                    </div>
-                    <ul class="list-unstyled mb-4">
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Multi-Platform Ads</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> 5 Landing Pages</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Email Marketing</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Content Creation</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Phone Support</li>
-                    </ul>
-                    <a href="<?= site_url('free-quote') ?>" class="btn btn-primary w-100">Get Started</a>
-                </div>
-            </div>
-
-            <!-- Enterprise Package -->
-            <div class="col-lg-4">
-                <div class="card-custom p-4 h-100">
-                    <h4 class="mb-3">Enterprise Package</h4>
-                    <div class="mb-4">
-                        <span class="display-4 fw-bold text-primary-custom">₹75,000</span>
-                        <span class="text-muted">/month</span>
-                    </div>
-                    <ul class="list-unstyled mb-4">
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Full Marketing Suite</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Unlimited Landing Pages</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Marketing Automation</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Dedicated Manager</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Priority Support</li>
-                    </ul>
-                    <a href="<?= site_url('free-quote') ?>" class="btn btn-outline-primary w-100">Get Started</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+ 
 
 <!-- CTA Section -->
 <section class="py-5 bg-primary-custom text-white">

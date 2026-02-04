@@ -197,78 +197,7 @@
     </div>
 </section>
 
-<!-- Pricing Packages -->
-<section class="py-5 bg-light-custom">
-    <div class="container">
-        <div class="text-center mb-5">
-            <h2 class="section-title section-title-center">Pricing Packages</h2>
-            <p class="section-subtitle">Choose the plan that fits your app requirements</p>
-        </div>
-
-        <div class="row g-4">
-            <!-- Basic Package -->
-            <div class="col-lg-4">
-                <div class="card-custom p-4 h-100">
-                    <h4 class="mb-3">Basic App</h4>
-                    <div class="mb-4">
-                        <span class="display-4 fw-bold text-primary-custom">₹75,000</span>
-                        <span class="text-muted">/one-time</span>
-                    </div>
-                    <ul class="list-unstyled mb-4">
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Single Platform (iOS or Android)</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Up to 5 Screens</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Basic UI/UX Design</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> API Integration</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> 2 Months Support</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> App Store Submission</li>
-                    </ul>
-                    <a href="<?= site_url('free-quote') ?>" class="btn btn-outline-primary w-100">Get Started</a>
-                </div>
-            </div>
-
-            <!-- Business Package (Popular) -->
-            <div class="col-lg-4">
-                <div class="card-custom p-4 h-100 border-primary" style="border-width: 3px !important;">
-                    <div class="badge bg-primary mb-3">Most Popular</div>
-                    <h4 class="mb-3">Business App</h4>
-                    <div class="mb-4">
-                        <span class="display-4 fw-bold text-primary-custom">₹1,50,000</span>
-                        <span class="text-muted">/one-time</span>
-                    </div>
-                    <ul class="list-unstyled mb-4">
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Cross-Platform (iOS & Android)</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Up to 15 Screens</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Custom UI/UX Design</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Backend Development</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> 6 Months Support</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> App Store Optimization</li>
-                    </ul>
-                    <a href="<?= site_url('free-quote') ?>" class="btn btn-primary w-100">Get Started</a>
-                </div>
-            </div>
-
-            <!-- Enterprise Package -->
-            <div class="col-lg-4">
-                <div class="card-custom p-4 h-100">
-                    <h4 class="mb-3">Enterprise App</h4>
-                    <div class="mb-4">
-                        <span class="display-4 fw-bold text-primary-custom">₹3,00,000</span>
-                        <span class="text-muted">/one-time</span>
-                    </div>
-                    <ul class="list-unstyled mb-4">
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Native iOS & Android</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Unlimited Screens</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Advanced Features</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Cloud Integration</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> 12 Months Support</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Analytics & Reporting</li>
-                    </ul>
-                    <a href="<?= site_url('free-quote') ?>" class="btn btn-outline-primary w-100">Get Started</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+ 
 
 <!-- FAQ Section -->
 <section class="py-5">

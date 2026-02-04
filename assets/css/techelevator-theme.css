@@ -15,6 +15,7 @@
   --sky-blue: #38bdf8;
   --dark-text: #111827;
   --dark-color: #1f2937;
+  --accent-blue: #3b82f6;
   --light-text: #595e67;
   --text-color: #374151;
   --white: #ffffff;
@@ -123,7 +124,7 @@ a:hover {
 /* ========================================
    3. SECTION TITLES
    ======================================== */
-.section-title {
+/* .section-title {
   font-weight: 700;
   color: var(--primary-blue);
   margin-bottom: 1rem;
@@ -141,19 +142,19 @@ a:hover {
   margin-bottom: 3rem;
 }
 
-/* .section-title::after {
+.section-title::after {
   content: "";
   display: block;
   width: 60px;
   height: 4px;
   background: var(--accent-orange);
   margin-top: 0.5rem;
-} */
+}
 
 .section-title-center::after {
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
 /* ========================================
    4. BUTTONS
@@ -215,62 +216,8 @@ a:hover {
   font-size: 0.9rem;
 }
 
-/* ========================================
-   5. CARDS
-   ======================================== */
-.card-custom {
-  border-radius: var(--radius);
-  box-shadow: var(--shadow-soft);
-  border: 1px solid var(--border-color);
-  background: var(--white);
-  transition: var(--transition-normal);
-  overflow: hidden;
-}
-
-.card-custom:hover {
-  transform: translateY(-5px);
-  box-shadow: var(--shadow-medium);
-}
-
-.tech-card {
-  border-radius: var(--radius-lg);
-  box-shadow: var(--shadow-soft);
-  transition: var(--transition-normal);
-  background: var(--white);
-  padding: 2rem;
-  border: 1px solid var(--border-color);
-  height: 100%;
-}
-
-.tech-card:hover {
-  transform: translateY(-8px);
-  box-shadow: var(--shadow-large);
-  border-color: var(--primary-blue);
-}
-
-.tech-card i {
-  font-size: 3rem;
-  color: var(--primary-blue);
-  margin-bottom: 1rem;
-  transition: var(--transition-normal);
-}
-
-.tech-card:hover i {
-  color: var(--accent-orange);
-  transform: scale(1.1);
-}
-
-.tech-card h5 {
-  color: var(--dark-text);
-  font-weight: 600;
-  margin-bottom: 0.75rem;
-}
-
-.tech-card p {
-  color: var(--light-text);
-  font-size: 0.95rem;
-  margin-bottom: 0;
-}
+ 
+ 
 
 /* ========================================
    6. NAVIGATION BAR
@@ -1074,3 +1021,4 @@ a:hover {
     display: none;
   }
 }
+

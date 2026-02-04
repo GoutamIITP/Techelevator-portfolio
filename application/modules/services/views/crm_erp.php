@@ -92,75 +92,7 @@
     </div>
 </section>
 
-<!-- Pricing Packages -->
-<section class="py-5 bg-light-custom">
-    <div class="container">
-        <div class="text-center mb-5">
-            <h2 class="section-title section-title-center">Solution Packages</h2>
-            <p class="section-subtitle">Choose the system that fits your business size</p>
-        </div>
-
-        <div class="row g-4">
-            <!-- Small Business -->
-            <div class="col-lg-4">
-                <div class="card-custom p-4 h-100">
-                    <h4 class="mb-3">Small Business CRM</h4>
-                    <div class="mb-4">
-                        <span class="display-4 fw-bold text-primary-custom">₹1,00,000</span>
-                        <span class="text-muted">/one-time</span>
-                    </div>
-                    <ul class="list-unstyled mb-4">
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Lead Management</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Contact Management</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Sales Pipeline</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Basic Reporting</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> 6 Months Support</li>
-                    </ul>
-                    <a href="<?= site_url('free-quote') ?>" class="btn btn-outline-primary w-100">Get Started</a>
-                </div>
-            </div>
-
-            <!-- Medium Business (Popular) -->
-            <div class="col-lg-4">
-                <div class="card-custom p-4 h-100 border-primary" style="border-width: 3px !important;">
-                    <div class="badge bg-primary mb-3">Most Popular</div>
-                    <h4 class="mb-3">Business ERP</h4>
-                    <div class="mb-4">
-                        <span class="display-4 fw-bold text-primary-custom">₹3,00,000</span>
-                        <span class="text-muted">/one-time</span>
-                    </div>
-                    <ul class="list-unstyled mb-4">
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Complete CRM Features</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Inventory Management</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Accounting Integration</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Advanced Analytics</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> 12 Months Support</li>
-                    </ul>
-                    <a href="<?= site_url('free-quote') ?>" class="btn btn-primary w-100">Get Started</a>
-                </div>
-            </div>
-
-            <!-- Enterprise -->
-            <div class="col-lg-4">
-                <div class="card-custom p-4 h-100">
-                    <h4 class="mb-3">Enterprise Solution</h4>
-                    <div class="mb-4">
-                        <span class="display-4 fw-bold text-primary-custom">₹8,00,000</span>
-                        <span class="text-muted">/one-time</span>
-                    </div>
-                    <ul class="list-unstyled mb-4">
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Full ERP Suite</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Multi-location Support</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Custom Modules</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> API Integrations</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> 24 Months Support</li>
-                    </ul>
-                    <a href="<?= site_url('free-quote') ?>" class="btn btn-outline-primary w-100">Get Started</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+ 
 
 <!-- CTA Section -->
 <section class="py-5 bg-primary-custom text-white">

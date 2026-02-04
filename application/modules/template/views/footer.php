@@ -6,7 +6,7 @@
             <!-- Company Info Column -->
             <div class="col-lg-4 col-md-6">
                 <div class="d-flex align-items-center mb-3">
-                    <img src="<?= base_url('assets/images/logo/techelevator-logo-white.png') ?>" alt="TechElevatr Logo" height="40" class="me-2" loading="lazy">
+                    <img src="<?= base_url('assets\images\logo\Instagram-files\logo-3.jpg') ?>" alt="TechElevatr Logo" height="40" class="me-2" loading="lazy">
                     <h5 class="mb-0">TechElevatr</h5>
                 </div>
                 <p class="text-light-gray">
@@ -37,7 +37,7 @@
                 <h5>Quick Links</h5>
                 <ul class="footer-links">
                     <li><a href="<?= site_url() ?>"><i class="bi bi-chevron-right me-1"></i> Home</a></li>
-                    <!-- <li><a href="<?= site_url('about') ?>"><i class="bi bi-chevron-right me-1"></i> About Us</a></li> -->
+                    <li><a href="<?= site_url('about') ?>"><i class="bi bi-chevron-right me-1"></i> About Us</a></li>
                     <li><a href="<?= site_url('services') ?>"><i class="bi bi-chevron-right me-1"></i> Services</a></li>
                     <li><a href="<?= site_url('portfolio') ?>"><i class="bi bi-chevron-right me-1"></i> Portfolio</a></li>
                     <!-- <li><a href="<?= site_url('testimonials') ?>"><i class="bi bi-chevron-right me-1"></i> Testimonials</a></li> -->
@@ -66,7 +66,7 @@
                     <li class="mb-3">
                         <i class="bi bi-geo-alt-fill text-primary-custom me-2"></i>
                         <a href="<?= $googleMapsUrl ?>" target="_blank" rel="noopener">
-                            <small>TechElevatr<br>Siliguri, West Bengal, India</small>
+                            <small>TechElevatr,Siliguri, West Bengal, India</small>
                         </a>
                     </li>
                     <li class="mb-3">

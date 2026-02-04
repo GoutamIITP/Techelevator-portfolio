@@ -197,78 +197,7 @@
     </div>
 </section>
 
-<!-- Pricing Packages -->
-<section class="py-5 bg-light-custom">
-    <div class="container">
-        <div class="text-center mb-5">
-            <h2 class="section-title section-title-center">Pricing Packages</h2>
-            <p class="section-subtitle">Choose the plan that fits your needs</p>
-        </div>
-
-        <div class="row g-4">
-            <!-- Basic Package -->
-            <div class="col-lg-4">
-                <div class="card-custom p-4 h-100">
-                    <h4 class="mb-3">Basic Website</h4>
-                    <div class="mb-4">
-                        <span class="display-4 fw-bold text-primary-custom">₹25,000</span>
-                        <span class="text-muted">/one-time</span>
-                    </div>
-                    <ul class="list-unstyled mb-4">
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Up to 5 Pages</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Responsive Design</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Contact Form</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Basic SEO</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> 1 Month Support</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Free SSL Certificate</li>
-                    </ul>
-                    <a href="<?= site_url('free-quote') ?>" class="btn btn-outline-primary w-100">Get Started</a>
-                </div>
-            </div>
-
-            <!-- Business Package (Popular) -->
-            <div class="col-lg-4">
-                <div class="card-custom p-4 h-100 border-primary" style="border-width: 3px !important;">
-                    <div class="badge bg-primary mb-3">Most Popular</div>
-                    <h4 class="mb-3">Business Website</h4>
-                    <div class="mb-4">
-                        <span class="display-4 fw-bold text-primary-custom">₹50,000</span>
-                        <span class="text-muted">/one-time</span>
-                    </div>
-                    <ul class="list-unstyled mb-4">
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Up to 10 Pages</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Custom Design</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> CMS Integration</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Advanced SEO</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> 3 Months Support</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Free SSL + Hosting Setup</li>
-                    </ul>
-                    <a href="<?= site_url('free-quote') ?>" class="btn btn-primary w-100">Get Started</a>
-                </div>
-            </div>
-
-            <!-- E-commerce Package -->
-            <div class="col-lg-4">
-                <div class="card-custom p-4 h-100">
-                    <h4 class="mb-3">E-commerce Website</h4>
-                    <div class="mb-4">
-                        <span class="display-4 fw-bold text-primary-custom">₹1,00,000</span>
-                        <span class="text-muted">/one-time</span>
-                    </div>
-                    <ul class="list-unstyled mb-4">
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Unlimited Products</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Payment Gateway</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Inventory Management</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Order Tracking</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> 6 Months Support</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Free SSL + Premium Hosting</li>
-                    </ul>
-                    <a href="<?= site_url('free-quote') ?>" class="btn btn-outline-primary w-100">Get Started</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+ 
 
 <!-- FAQ Section -->
 <section class="py-5">

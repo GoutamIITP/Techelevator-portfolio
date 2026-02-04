@@ -93,75 +93,7 @@
 </section>
 
 <!-- Pricing Packages -->
-<section class="py-5 bg-light-custom">
-    <div class="container">
-        <div class="text-center mb-5">
-            <h2 class="section-title section-title-center">SEO Packages</h2>
-            <p class="section-subtitle">Choose the plan that fits your SEO needs</p>
-        </div>
-
-        <div class="row g-4">
-            <!-- Starter Package -->
-            <div class="col-lg-4">
-                <div class="card-custom p-4 h-100">
-                    <h4 class="mb-3">Starter SEO</h4>
-                    <div class="mb-4">
-                        <span class="display-4 fw-bold text-primary-custom">₹15,000</span>
-                        <span class="text-muted">/month</span>
-                    </div>
-                    <ul class="list-unstyled mb-4">
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Up to 10 Keywords</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> On-Page Optimization</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Monthly Reports</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Google Analytics Setup</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Basic Link Building</li>
-                    </ul>
-                    <a href="<?= site_url('free-quote') ?>" class="btn btn-outline-primary w-100">Get Started</a>
-                </div>
-            </div>
-
-            <!-- Professional Package (Popular) -->
-            <div class="col-lg-4">
-                <div class="card-custom p-4 h-100 border-primary" style="border-width: 3px !important;">
-                    <div class="badge bg-primary mb-3">Most Popular</div>
-                    <h4 class="mb-3">Professional SEO</h4>
-                    <div class="mb-4">
-                        <span class="display-4 fw-bold text-primary-custom">₹25,000</span>
-                        <span class="text-muted">/month</span>
-                    </div>
-                    <ul class="list-unstyled mb-4">
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Up to 25 Keywords</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Advanced On-Page SEO</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Content Optimization</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Local SEO</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Quality Link Building</li>
-                    </ul>
-                    <a href="<?= site_url('free-quote') ?>" class="btn btn-primary w-100">Get Started</a>
-                </div>
-            </div>
-
-            <!-- Enterprise Package -->
-            <div class="col-lg-4">
-                <div class="card-custom p-4 h-100">
-                    <h4 class="mb-3">Enterprise SEO</h4>
-                    <div class="mb-4">
-                        <span class="display-4 fw-bold text-primary-custom">₹50,000</span>
-                        <span class="text-muted">/month</span>
-                    </div>
-                    <ul class="list-unstyled mb-4">
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Unlimited Keywords</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Technical SEO Audit</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Content Creation</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Competitor Analysis</li>
-                        <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> Premium Link Building</li>
-                    </ul>
-                    <a href="<?= site_url('free-quote') ?>" class="btn btn-outline-primary w-100">Get Started</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
+ 
 <!-- CTA Section -->
 <section class="py-5 bg-primary-custom text-white">
     <div class="container">
