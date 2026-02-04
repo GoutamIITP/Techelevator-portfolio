@@ -20,7 +20,7 @@ class Portfolio extends MX_Controller
 
         $data['module'] = "portfolio";
         $data['view_file'] = "portfolio";
-        echo Modules::run('template/layout1', $data);
+        echo Modules::run('template/layout2', $data);
     }
 
     public function view($slug = '')
@@ -43,7 +43,7 @@ class Portfolio extends MX_Controller
 
         $data['module'] = "portfolio";
         $data['view_file'] = "project_detail";
-        echo Modules::run('template/layout1', $data);
+        echo Modules::run('template/layout2', $data);
     }
 
     public function category($category = '')
@@ -62,6 +62,6 @@ class Portfolio extends MX_Controller
 
         $data['module'] = "portfolio";
         $data['view_file'] = "portfolio";
-        echo Modules::run('template/layout1', $data);
+        echo Modules::run('template/layout2', $data);
     }
 }

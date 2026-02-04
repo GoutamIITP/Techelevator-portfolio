@@ -37,11 +37,11 @@
                 <h5>Quick Links</h5>
                 <ul class="footer-links">
                     <li><a href="<?= site_url() ?>"><i class="bi bi-chevron-right me-1"></i> Home</a></li>
-                    <li><a href="<?= site_url('about') ?>"><i class="bi bi-chevron-right me-1"></i> About Us</a></li>
+                    <!-- <li><a href="<?= site_url('about') ?>"><i class="bi bi-chevron-right me-1"></i> About Us</a></li> -->
                     <li><a href="<?= site_url('services') ?>"><i class="bi bi-chevron-right me-1"></i> Services</a></li>
                     <li><a href="<?= site_url('portfolio') ?>"><i class="bi bi-chevron-right me-1"></i> Portfolio</a></li>
-                    <li><a href="<?= site_url('testimonials') ?>"><i class="bi bi-chevron-right me-1"></i> Testimonials</a></li>
-                    <li><a href="<?= site_url('blog') ?>"><i class="bi bi-chevron-right me-1"></i> Blog</a></li>
+                    <!-- <li><a href="<?= site_url('testimonials') ?>"><i class="bi bi-chevron-right me-1"></i> Testimonials</a></li> -->
+                    <!-- <li><a href="<?= site_url('blog') ?>"><i class="bi bi-chevron-right me-1"></i> Blog</a></li> -->
                     <li><a href="<?= site_url('contact') ?>"><i class="bi bi-chevron-right me-1"></i> Contact</a></li>
                 </ul>
             </div>

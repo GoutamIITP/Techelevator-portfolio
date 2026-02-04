@@ -86,7 +86,7 @@
                       </h6>
                       <ul class="service-list">
                         <li><a href="<?= site_url('services/web-development') ?>">Website Development</a></li>
-                  
+
                         <li><a href="<?= site_url('services/ecommerce-development') ?>">E-commerce Development</a></li>
                         <li><a href="<?= site_url('services/cms-development') ?>">CMS Development</a></li>
                         <li><a href="<?= site_url('services/wordpress-development') ?>">WordPress Development</a></li>
