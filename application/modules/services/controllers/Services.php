@@ -72,34 +72,73 @@ class Services extends MX_Controller
         echo Modules::run('template/layout2', $data);
     }
 
+    function ecommerceWeb()
+    {
+        $data['title'] = "E-commerce Web Development | TechElevatr";
+        $data['description'] = "E-commerce website development services.";
+        $data['keywords'] = "ecommerce, online store, shop";
+        $data['module'] = "services";
+        $data['view_file'] = "e-commerce_web";
+        echo Modules::run('template/layout2', $data);
+    }
+
+    function ecommerceApp()
+    {
+        $data['title'] = "E-commerce App Development | TechElevatr";
+        $data['description'] = "E-commerce mobile app development services.";
+        $data['keywords'] = "ecommerce app, m-commerce";
+        $data['module'] = "services";
+        $data['view_file'] = "e-commerce_app";
+        echo Modules::run('template/layout2', $data);
+    }
+
+    function dataAnalysis()
+    {
+        $data['title'] = "Data Analysis Services | TechElevatr";
+        $data['description'] = "Data analytics and BI solutions.";
+        $data['keywords'] = "data analysis, BI, analytics";
+        $data['module'] = "services";
+        $data['view_file'] = "data_analysis";
+        echo Modules::run('template/layout2', $data);
+    }
+    function customSoftware()
+    {
+        $data['title'] = "Custom Software Development | TechElevatr";
+        $data['description'] = "Tailored software solutions to meet your unique business needs. From concept to deployment, we deliver high-quality custom software.";
+        $data['keywords'] = "custom software, software development, tailored solutions, business software, application development";
+        $data['module'] = "services";
+        $data['view_file'] = "cms-development";
+        echo Modules::run('template/layout2', $data);
+    }
+
     // Legacy routes for backward compatibility (redirect to new services)
-    function homeRelocation()
-    {
-        redirect('services/web-development');
-    }
+    // function homeRelocation()
+    // {
+    //     redirect('services/web-development');
+    // }
 
-    function office()
-    {
-        redirect('services/app-development');
-    }
+    // function office()
+    // {
+    //     redirect('services/app-development');
+    // }
 
-    function car()
-    {
-        redirect('services/seo-services');
-    }
+    // function car()
+    // {
+    //     redirect('services/seo-services');
+    // }
 
-    function courier()
-    {
-        redirect('services/crm-erp');
-    }
+    // function courier()
+    // {
+    //     redirect('services/crm-erp');
+    // }
 
-    function luggage()
-    {
-        redirect('services/lead-generation');
-    }
+    // function luggage()
+    // {
+    //     redirect('services/lead-generation');
+    // }
 
-    function insurance()
-    {
-        redirect('services/hosting-domain');
-    }
+    // function insurance()
+    // {
+    //     redirect('services/hosting-domain');
+    // }
 }

@@ -52,9 +52,9 @@ class MX_Controller
         $this->load->initialize($this);
 
         $this->comp['phone'] = '+91 62958 27525';
-        $this->comp['phonehtml'] = 'tel:+916295827525';
-        $this->comp['phone1'] = '+91 62958 27525';
-        $this->comp['phonehtml1'] = 'tel:+916295827525';
+        $this->comp['phonehtml'] = 'tel:+917549225345';
+        $this->comp['phone1'] = '+91 7549225345';
+        $this->comp['phonehtml1'] = 'tel:+917549225345';
         $this->comp['supportmail'] = 'techelevatr@gmail.com';
         $this->comp['replyToMail'] = 'techelevatr@gmail.com';
         $this->comp['mail'] = 'techelevatr@gmail.com';
@@ -67,16 +67,16 @@ class MX_Controller
         $this->comp['instagramhtml'] = "https://instagram.com/techelevator";
         $this->comp['twitterhtml'] = "https://twitter.com/techelevator";
         $this->comp['linkedinhtml'] = "https://linkedin.com/company/techelevator";
-        $this->comp['whatsapphtml'] = "https://wa.me/916295827525";
+        $this->comp['whatsapphtml'] = "https://wa.me/917549225345";
 
-        $this->comp['address'] = "<address>TechElevatr, Siliguri, West Bengal, India</address>";
+        $this->comp['address'] = "<address>509,5th floor RR Tower Ratu road, Ranchi, India</address>";
         $this->comp['address1'] = "TechElevatr";
-        $this->comp['address2'] = "Siliguri, West Bengal, India";
-        $this->comp['registeredAddress'] = "<address class='mb-0'>TechElevatr, Siliguri, West Bengal, India</address>";
-        $this->comp['officeAddress'] = "<address class='mb-0'>TechElevatr, Siliguri, West Bengal, India</address>";
-        $this->comp['addressRegion'] = "West Bengal";
+        $this->comp['address2'] = "509,5th floor RR Tower Ratu road, Ranchi, India";
+        $this->comp['registeredAddress'] = "<address class='mb-0'>509,5th floor RR Tower Ratu road, Ranchi, India</address>";
+        $this->comp['officeAddress'] = "<address class='mb-0'>509,5th floor RR Tower Ratu road, Ranchi, India</address>";
+        $this->comp['addressRegion'] = "Ranchi";
         $this->comp['postalCode'] = "734001";
-        $this->comp['companystate'] = "West Bengal";
+        $this->comp['companystate'] = "Ranchi";
         $this->comp['googleMapsUrl'] = "https://www.google.com/maps/place/TechElevatr/@26.7673514,88.3777813,741m/data=!3m1!1e3!4m6!3m5!1s0x39e4479f5ec40d61:0x11a1b7680111183c!8m2!3d26.7673251!4d88.3781995!16s%2Fg%2F11zjxvplwk?entry=ttu&g_ep=EgoyMDI2MDEyNi4wIKXMDSoKLDEwMDc5MjA2OUgBUAM%3D";
         $this->comp['themeColor'] = "#1E40AF";
 

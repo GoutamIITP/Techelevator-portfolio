@@ -53,6 +53,7 @@
                     <li><a href="<?= site_url('services/web-development') ?>"><i class="bi bi-chevron-right me-1"></i> Website Development</a></li>
                     <li><a href="<?= site_url('services/app-development') ?>"><i class="bi bi-chevron-right me-1"></i> App Development</a></li>
                     <li><a href="<?= site_url('services/seo-services') ?>"><i class="bi bi-chevron-right me-1"></i> SEO Services</a></li>
+                    <li><a href="<?= site_url('services/data-analysis') ?>"><i class="bi bi-chevron-right me-1"></i> Data Analysis</a></li>
                     <li><a href="<?= site_url('services/crm-erp') ?>"><i class="bi bi-chevron-right me-1"></i> CRM / ERP</a></li>
                     <li><a href="<?= site_url('services/lead-generation') ?>"><i class="bi bi-chevron-right me-1"></i> Lead Generation</a></li>
                     <li><a href="<?= site_url('services/hosting-domain') ?>"><i class="bi bi-chevron-right me-1"></i> Hosting & Domain</a></li>
@@ -66,7 +67,7 @@
                     <li class="mb-3">
                         <i class="bi bi-geo-alt-fill text-primary-custom me-2"></i>
                         <a href="<?= $googleMapsUrl ?>" target="_blank" rel="noopener">
-                            <small>TechElevatr,Siliguri, West Bengal, India</small>
+                            <small>509,5th floor RR Tower Ratu road, Ranchi, India</small>
                         </a>
                     </li>
                     <li class="mb-3">

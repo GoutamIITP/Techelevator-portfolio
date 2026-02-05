@@ -2,16 +2,16 @@
   <div class="top-info-bar d-none d-lg-block">
     <div class="container-fluid">
       <div class="row align-items-center">
-        <div class="col-md-8">
+        <div class="col-md-10">
           <div class="d-flex align-items-center contact-info-wrapper">
             <div class="contact-info-item">
               <i class="fas fa-map-marker-alt"></i>
-              <span>TechElevatr, Siliguri, WB, India</span>
+              <span>509,5th floor RR Tower Ratu road, Ranchi, India</span>
             </div>
             <span class="separator">|</span>
             <div class="contact-info-item">
               <i class="fas fa-phone-alt"></i>
-              <a href="tel:+911234567890">+91 12345 67890</a>
+              <a href="tel:+917549225345">+91 7549225345</a>
             </div>
             <span class="separator">|</span>
             <div class="contact-info-item">
@@ -25,7 +25,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-2">
           <div class="d-flex justify-content-end social-icons-wrapper">
             <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
             <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
@@ -48,7 +48,7 @@
         <img src="<?= base_url('assets/images/logo/techelevator-logo.jpg') ?>"
           alt="TechElevatr Logo"
           class="nav-logo">
-          <span class="brand-text">Tech<span class="text-primary">Elevatr</span></span>
+        <span class="brand-text">Tech<span class="text-primary">Elevatr</span></span>
       </a>
 
       <!-- Desktop Navigation (Visible on LG and up) -->
@@ -87,10 +87,11 @@
                       </h6>
                       <ul class="service-list">
                         <li><a href="<?= site_url('services/web-development') ?>">Website Development</a></li>
+                        <li><a href="<?= site_url('services/e-commerce-web') ?>">E-commerce Website</a></li>
 
-                        <!-- <li><a href="<?= site_url('services/ecommerce-development') ?>">E-commerce Development</a></li>
-                        <li><a href="<?= site_url('services/cms-development') ?>">CMS Development</a></li>
-                        <li><a href="<?= site_url('services/wordpress-development') ?>">WordPress Development</a></li> -->
+
+                        <!-- <li><a href="<?= site_url('services/custom-software') ?>">CMS Development</a></li>  -->
+                        <!-- <li><a href="<?= site_url('services/wordpress-development') ?>">WordPress Development</a></li> -->
                       </ul>
                     </div>
                   </div>
@@ -104,6 +105,9 @@
                       </h6>
                       <ul class="service-list">
                         <li><a href="<?= site_url('services/app-development') ?>">Mobile App Development</a></li>
+                        <li><a href="<?= site_url('services/e-commerce-app') ?>">E-commerce App</a></li>
+
+
                         <!-- <li><a href="<?= site_url('services/android-development') ?>">Android Development</a></li>
                         <li><a href="<?= site_url('services/ios-development') ?>">iOS Development</a></li>
                         <li><a href="<?= site_url('services/flutter-development') ?>">Flutter Development</a></li>
@@ -139,6 +143,7 @@
                       <ul class="service-list">
                         <li><a href="<?= site_url('services/crm-erp') ?>">CRM/ERP Solutions</a></li>
                         <li><a href="<?= site_url('services/hosting-domain') ?>">Hosting & Domain</a></li>
+                        <li><a href="<?= site_url('services/data-analysis') ?>">Data Analysis</a></li>
                         <!-- <li><a href="<?= site_url('services/custom-software') ?>">Custom Software</a></li>
                         <li><a href="<?= site_url('services/it-consulting') ?>">IT Consulting</a></li>
                         <li><a href="<?= site_url('services/maintenance-support') ?>">Maintenance & Support</a></li> -->
@@ -256,9 +261,11 @@
                   <div class="collapse" id="webDevSection">
                     <ul class="section-list">
                       <li><a href="<?= site_url('services/web-development') ?>">Website Development</a></li>
-                      <!-- <li><a href="<?= site_url('services/responsive-design') ?>">Responsive Design</a></li>
-                      <li><a href="<?= site_url('services/ecommerce-development') ?>">E-commerce Development</a></li>
-                      <li><a href="<?= site_url('services/cms-development') ?>">CMS Development</a></li>
+                      <li><a href="<?= site_url('services/e-commerce-web') ?>">E-commerce Website</a></li>
+
+
+                      <!-- <li><a href="<?= site_url('services/custom-software') ?>">CMS Development</a></li> -->
+                      <!-- <li><a href="<?= site_url('services/cms-development') ?>">CMS Development</a></li>
                       <li><a href="<?= site_url('services/wordpress-development') ?>">WordPress Development</a></li> -->
                     </ul>
                   </div>
@@ -274,6 +281,7 @@
                   <div class="collapse" id="appDevSection">
                     <ul class="section-list">
                       <li><a href="<?= site_url('services/app-development') ?>">Mobile App Development</a></li>
+                      <li><a href="<?= site_url('services/e-commerce-app') ?>">E-commerce App</a></li>
                       <!-- <li><a href="<?= site_url('services/android-development') ?>">Android Development</a></li>
                       <li><a href="<?= site_url('services/ios-development') ?>">iOS Development</a></li>
                       <li><a href="<?= site_url('services/flutter-development') ?>">Flutter Development</a></li>
@@ -311,6 +319,7 @@
                     <ul class="section-list">
                       <li><a href="<?= site_url('services/crm-erp') ?>">CRM/ERP Solutions</a></li>
                       <li><a href="<?= site_url('services/hosting-domain') ?>">Hosting & Domain</a></li>
+                      <li><a href="<?= site_url('services/data-analysis') ?>">Data Analysis</a></li>
                       <!-- <li><a href="<?= site_url('services/custom-software') ?>">Custom Software</a></li>
                       <li><a href="<?= site_url('services/it-consulting') ?>">IT Consulting</a></li>
                       <li><a href="<?= site_url('services/maintenance-support') ?>">Maintenance & Support</a></li> -->

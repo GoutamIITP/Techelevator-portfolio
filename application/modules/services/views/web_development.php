@@ -5,7 +5,7 @@
         /* ======= Hero Section ======= */
         .service-hero {
             background: linear-gradient(135deg, var(--primary-blue), var(--secondary-blue));
-            padding: 140px 0 100px;
+            padding: 10px 0 100px;
             color: white;
             position: relative;
             overflow: hidden;
@@ -63,7 +63,7 @@
 
         /* ======= Service Cards ======= */
         .service-feature-section {
-            padding: 100px 0;
+            padding: 10px 0;
             background: var(--bg-light);
         }
 
@@ -127,7 +127,7 @@
 
         /* ======= Process Section ======= */
         .process-section {
-            padding: 100px 0;
+            padding: 10px 0;
             background: white;
             position: relative;
         }
@@ -221,7 +221,7 @@
 
         /* ======= Technologies Grid ======= */
         .tech-section {
-            padding: 100px 0;
+            padding: 10px 0;
             background: linear-gradient(135deg, #f8fafc, #f1f5f9);
         }
 
@@ -266,7 +266,7 @@
 
         /* ======= FAQ Section ======= */
         .faq-section {
-            padding: 100px 0;
+            padding: 10px 0;
             background: white;
         }
 
@@ -307,7 +307,7 @@
 
         /* ======= CTA Section ======= */
         .service-cta {
-            padding: 100px 0;
+            padding: 10px 0;
             background: linear-gradient(135deg, var(--primary-blue), var(--secondary-blue));
             position: relative;
             overflow: hidden;
@@ -493,7 +493,7 @@
                     <h1 class="service-title animate-fade-in">
                         Professional Website Development Services
                     </h1>
-                    <p class="service-subtitle animate-fade-in">
+                    <p class="service-subtitle animate-fade-in text-white">
                         Build modern, responsive, and high-performance websites that drive business growth. 
                         Custom designs tailored to your brand and optimized for results.
                     </p>
@@ -831,11 +831,11 @@
         <div class="container">
             <div class="cta-content animate-fade-in">
                 <h2>Ready to Build Your Professional Website?</h2>
-                <p>Get a free consultation and detailed project quote. Let's create a website that drives real results for your business.</p>
+                <p class="text-white">Get a free consultation and detailed project quote. Let's create a website that drives real results for your business.</p>
                 <a href="<?= site_url('free-quote') ?>" class="cta-button">
                     <i class="bi bi-rocket-takeoff me-2"></i> Start Your Project
                 </a>
-                <p class="mt-4 opacity-75">
+                <p class="mt-4 opacity-75 text-white">
                     <i class="bi bi-clock me-1"></i> 30-minute free consultation • No obligation • Expert advice
                 </p>
             </div>

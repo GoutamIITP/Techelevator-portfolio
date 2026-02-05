@@ -23,6 +23,10 @@ $route['services/seo-services'] = 'services/seoServices';
 $route['services/crm-erp'] = 'services/crmErp';
 $route['services/lead-generation'] = 'services/leadGeneration';
 $route['services/hosting-domain'] = 'services/hostingDomain';
+$route['services/e-commerce-web'] = 'services/ecommerceWeb';
+$route['services/e-commerce-app'] = 'services/ecommerceApp';
+$route['services/data-analysis']   = 'services/dataAnalysis';
+$route['services/custom-software'] = 'services/customSoftware';
 
 // Portfolio Routes (Replaces packers_movers)
 $route['portfolio'] = 'portfolio/index';

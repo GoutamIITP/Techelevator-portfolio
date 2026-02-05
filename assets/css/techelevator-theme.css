@@ -15,6 +15,8 @@
   --sky-blue: #38bdf8;
   --dark-text: #111827;
   --accent-green: #10b981;
+  --accent-purple: #8b5cf6;
+  --accent-teal: #0d9488;
   --dark-color: #1f2937;
   --accent-blue: #3b82f6;
   --light-text: #595e67;
@@ -217,9 +219,6 @@ a:hover {
   font-size: 0.9rem;
 }
 
- 
- 
-
 /* ========================================
    6. NAVIGATION BAR
    ======================================== */
@@ -260,8 +259,6 @@ a:hover {
 .nav-link.active {
   color: var(--primary-blue) !important;
 }
-
- 
 
 .nav-link:hover::after {
   width: 80%;
@@ -1014,11 +1011,10 @@ a:hover {
 }
 
 .brand-text {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: #111827;
-    letter-spacing: 0.5px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #111827;
+  letter-spacing: 0.5px;
 }
-
 
 /* ======== all service ======== */
