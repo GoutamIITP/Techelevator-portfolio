@@ -81,7 +81,7 @@
     <p>For questions about these Terms & Conditions, please contact us:</p>
     <ul class="list-unstyled">
       <li><i class="bi bi-envelope me-2"></i> Email: info@techelevator.com</li>
-      <li><i class="bi bi-telephone me-2"></i> Phone: +91-9876543210</li>
+      <li><i class="bi bi-telephone me-2"></i> Phone: +91-7549225345</li>
       <li><i class="bi bi-geo-alt me-2"></i> Address: 123, Tech Park, Sector 62, Noida, UP - 201301</li>
     </ul>
   </div>

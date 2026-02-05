@@ -123,7 +123,7 @@
     <p>For any questions or concerns regarding cancellations and refunds:</p>
     <ul class="list-unstyled mt-3">
       <li><i class="bi bi-envelope me-2 text-primary-custom"></i> <strong>Email:</strong> info@techelevator.com</li>
-      <li><i class="bi bi-telephone me-2 text-primary-custom"></i> <strong>Phone:</strong> +91-9876543210</li>
+      <li><i class="bi bi-telephone me-2 text-primary-custom"></i> <strong>Phone:</strong> +91-7549225345</li>
       <li><i class="bi bi-clock me-2 text-primary-custom"></i> <strong>Support Hours:</strong> Monday - Saturday, 9:00 AM - 7:00 PM IST</li>
     </ul>
 

@@ -11,10 +11,10 @@ class Template extends MX_Controller
 		// Initialize common data for all templates
 		$this->comp = array(
 			'company_name' => 'TechElevatr Digital Solutions',
-			'phone' => '+91-9876543210',
-			'phone1' => '+91-9876543211',
-			'phonehtml' => 'tel:+919876543210',
-			'phonehtml1' => 'tel:+919876543211',
+			'phone' => '+91-7549225345',
+			'phone1' => '+91-7549225345',
+			'phonehtml' => 'tel:+917549225345',
+			'phonehtml1' => 'tel:+917549225345',
 			'mail' => 'info@techelevator.com',
 			'mailhtml' => 'mailto:info@techelevator.com',
 			'registeredAddress' => '123, Tech Park, Sector 62, Noida, Uttar Pradesh - 201301, India',

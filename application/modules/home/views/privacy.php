@@ -102,7 +102,7 @@
     <p>If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us:</p>
     <ul class="list-unstyled mt-3">
       <li><i class="bi bi-envelope me-2 text-primary-custom"></i> <strong>Email:</strong> privacy@techelevator.com</li>
-      <li><i class="bi bi-telephone me-2 text-primary-custom"></i> <strong>Phone:</strong> +91-9876543210</li>
+      <li><i class="bi bi-telephone me-2 text-primary-custom"></i> <strong>Phone:</strong> +91-7549225345</li>
       <li><i class="bi bi-geo-alt me-2 text-primary-custom"></i> <strong>Address:</strong> 123, Tech Park, Sector 62, Noida, Uttar Pradesh - 201301, India</li>
     </ul>
 

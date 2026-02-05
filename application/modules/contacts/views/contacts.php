@@ -181,27 +181,6 @@
 </main>
 
 <style>
-    /* CSS Variables */
-    :root {
-        --primary-blue: #1e40af;
-        --secondary-blue: #38bdf8;
-        --accent-orange: #f97316;
-        --dark-text: #1f2937;
-        --text-color: #4b5563;
-        --light-text: #6b7280;
-        --bg-light: #f9fafb;
-        --white: #ffffff;
-        --border-color: #e5e7eb;
-        --shadow-soft: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-        --shadow-medium: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-        --shadow-large: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-        --shadow-md: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
-        --shadow-lg: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
-        --radius: 8px;
-        --radius-lg: 12px;
-        --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    }
-
     /* Contact Page Styles */
     .te-contact-breadcrumb {
         background: linear-gradient(135deg, rgba(30, 64, 175, 0.95), rgba(56, 189, 248, 0.95)), 
